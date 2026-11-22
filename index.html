@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pixie Chinese Studio</title>
+<meta name="description" content="HSK 3급 대비 중국어 단어·문법 학습 앱">
+<meta name="theme-color" content="#FF7A8A">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Pixie 중국어">
+<meta name="format-detection" content="telephone=no">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+<div id="app">
+  <header class="top" id="top"></header>
+  <main id="view" tabindex="-1"><div class="boot"><div class="boot-logo">中</div><p>단어장을 불러오는 중…</p></div></main>
+  <nav class="tabs" id="tabs">
+    <button data-tab="home"><i>🏠</i><span>홈</span></button>
+    <button data-tab="today"><i>📖</i><span>오늘의 단어</span></button>
+    <button data-tab="practice"><i>✏️</i><span>연습</span></button>
+    <button data-tab="dict"><i>🔎</i><span>단어장</span></button>
+    <button data-tab="grammar"><i>🧩</i><span>문법</span></button>
+    <button data-tab="hard"><i>⭐</i><span>어려운</span></button>
+  </nav>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<div id="sheet" class="sheet" hidden></div>
+<script src="app.js?v=5"></script>
+</body>
+</html>

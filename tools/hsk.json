@@ -1,0 +1,6002 @@
+[
+{
+"w": "爱",
+"p": "ài",
+"en": "to love; to be fond of; to like; affection",
+"lv": 1
+},
+{
+"w": "八",
+"p": "bā",
+"en": "eight",
+"lv": 1
+},
+{
+"w": "爸爸",
+"p": "bàba",
+"en": "(coll.) father; dad",
+"lv": 1
+},
+{
+"w": "吧",
+"p": "ba",
+"en": "(modal particle indicating suggestion or surmise);...right?",
+"lv": 1
+},
+{
+"w": "白天",
+"p": "báitiān",
+"en": "daytime; during the day",
+"lv": 1
+},
+{
+"w": "百",
+"p": "bǎi",
+"en": "hundred; numerous",
+"lv": 1
+},
+{
+"w": "半",
+"p": "bàn",
+"en": "half; semi-",
+"lv": 1
+},
+{
+"w": "包子",
+"p": "bāozi",
+"en": "baozi; bao (steamed stuffed bun)",
+"lv": 1
+},
+{
+"w": "杯子",
+"p": "bēizi",
+"en": "cup; glass",
+"lv": 1
+},
+{
+"w": "本",
+"p": "běn",
+"en": "classifier for books, periodicals, files etc",
+"lv": 1
+},
+{
+"w": "边",
+"p": "biān",
+"en": "side; edge",
+"lv": 1
+},
+{
+"w": "病",
+"p": "bìng",
+"en": "illness; disease",
+"lv": 1
+},
+{
+"w": "不",
+"p": "bù",
+"en": "no; not so; (bound form) not; un-",
+"lv": 1
+},
+{
+"w": "不客气",
+"p": "bú kèqi",
+"en": "you're welcome; don't mention it",
+"lv": 1
+},
+{
+"w": "不要",
+"p": "búyào",
+"en": "don't!; must not",
+"lv": 1
+},
+{
+"w": "菜",
+"p": "cài",
+"en": "vegetable; greens; dish (of food)",
+"lv": 1
+},
+{
+"w": "茶",
+"p": "chá",
+"en": "tea; tea plant",
+"lv": 1
+},
+{
+"w": "唱",
+"p": "chàng",
+"en": "to sing; to call loudly",
+"lv": 1
+},
+{
+"w": "超市",
+"p": "chāoshì",
+"en": "supermarket (abbr. for 超级市场)",
+"lv": 1
+},
+{
+"w": "车",
+"p": "chē",
+"en": "car; vehicle",
+"lv": 1
+},
+{
+"w": "吃",
+"p": "chī",
+"en": "to eat; to consume; to eat at (a cafeteria etc)",
+"lv": 1
+},
+{
+"w": "出租车",
+"p": "chūzūchē",
+"en": "taxi; (Tw) rental car",
+"lv": 1
+},
+{
+"w": "穿",
+"p": "chuān",
+"en": "to bore through; to pierce; to perforate; to go through (e.g. a tunnel); to cross (e.g. a street)",
+"lv": 1
+},
+{
+"w": "打电话",
+"p": "dǎ diànhuà",
+"en": "to make a telephone call",
+"lv": 1
+},
+{
+"w": "大",
+"p": "dà",
+"en": "big; large; great; older (than another person)",
+"lv": 1
+},
+{
+"w": "大家",
+"p": "dàjiā",
+"en": "everyone; influential family",
+"lv": 1
+},
+{
+"w": "大学",
+"p": "dàxué",
+"en": "university; college",
+"lv": 1
+},
+{
+"w": "大学生",
+"p": "dàxuéshēng",
+"en": "university student; college student",
+"lv": 1
+},
+{
+"w": "到",
+"p": "dào",
+"en": "to reach; to arrive; to leave for; to go to",
+"lv": 1
+},
+{
+"w": "的",
+"p": "de",
+"en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)",
+"lv": 1
+},
+{
+"w": "第",
+"p": "dì",
+"en": "(prefix indicating ordinal number, as in",
+"lv": 1
+},
+{
+"w": "弟弟",
+"p": "dìdi",
+"en": "younger brother",
+"lv": 1
+},
+{
+"w": "点",
+"p": "diǎn",
+"en": "to touch briefly; to tap; to mark with a dot; to check off (on a list)",
+"lv": 1
+},
+{
+"w": "店",
+"p": "diàn",
+"en": "inn; old-style hotel; (bound form) shop; store",
+"lv": 1
+},
+{
+"w": "电话",
+"p": "diànhuà",
+"en": "telephone; phone call",
+"lv": 1
+},
+{
+"w": "电脑",
+"p": "diànnǎo",
+"en": "computer",
+"lv": 1
+},
+{
+"w": "电视",
+"p": "diànshì",
+"en": "television; TV",
+"lv": 1
+},
+{
+"w": "电影",
+"p": "diànyǐng",
+"en": "movie; film",
+"lv": 1
+},
+{
+"w": "电影院",
+"p": "diànyǐngyuàn",
+"en": "cinema; movie theater",
+"lv": 1
+},
+{
+"w": "东西",
+"p": "dōngxi",
+"en": "thing; stuff",
+"lv": 1
+},
+{
+"w": "都",
+"p": "dōu",
+"en": "all; both; entirely; (used for emphasis) even",
+"lv": 1
+},
+{
+"w": "读",
+"p": "dú",
+"en": "to read out; to read aloud; to read",
+"lv": 1
+},
+{
+"w": "读书",
+"p": "dúshū",
+"en": "to read a book; to study",
+"lv": 1
+},
+{
+"w": "对",
+"p": "duì",
+"en": "right; correct; towards; at; for",
+"lv": 1
+},
+{
+"w": "对不起",
+"p": "duìbuqǐ",
+"en": "I'm sorry; excuse me; I beg your pardon; to let (sb) down; to disappoint",
+"lv": 1
+},
+{
+"w": "多",
+"p": "duō",
+"en": "many; much; more; a lot of; too many; in excess",
+"lv": 1
+},
+{
+"w": "多少",
+"p": "duōshao",
+"en": "how much?; how many?; (phone number, student ID etc) what number?",
+"lv": 1
+},
+{
+"w": "儿子",
+"p": "érzi",
+"en": "son",
+"lv": 1
+},
+{
+"w": "二",
+"p": "èr",
+"en": "two; 2",
+"lv": 1
+},
+{
+"w": "饭",
+"p": "fàn",
+"en": "cooked rice; meal",
+"lv": 1
+},
+{
+"w": "饭店",
+"p": "fàndiàn",
+"en": "restaurant; hotel",
+"lv": 1
+},
+{
+"w": "房间",
+"p": "fángjiān",
+"en": "room",
+"lv": 1
+},
+{
+"w": "非常",
+"p": "fēicháng",
+"en": "very; really; unusual; extraordinary",
+"lv": 1
+},
+{
+"w": "飞机",
+"p": "fēijī",
+"en": "airplane",
+"lv": 1
+},
+{
+"w": "分",
+"p": "fēn",
+"en": "to divide; to separate; to distribute; to allocate",
+"lv": 1
+},
+{
+"w": "分钟",
+"p": "fēnzhōng",
+"en": "minute",
+"lv": 1
+},
+{
+"w": "高兴",
+"p": "gāoxìng",
+"en": "happy; glad",
+"lv": 1
+},
+{
+"w": "歌",
+"p": "gē",
+"en": "song; (bound form) to sing",
+"lv": 1
+},
+{
+"w": "哥哥",
+"p": "gēge",
+"en": "older brother",
+"lv": 1
+},
+{
+"w": "个",
+"p": "gè",
+"en": "(classifier used before a noun that has no specific classifier); (bound form) individual",
+"lv": 1
+},
+{
+"w": "给",
+"p": "gěi",
+"en": "to; for",
+"lv": 1
+},
+{
+"w": "公司",
+"p": "gōngsī",
+"en": "company; firm; corporation",
+"lv": 1
+},
+{
+"w": "工作",
+"p": "gōngzuò",
+"en": "to work; (of a machine) to operate",
+"lv": 1
+},
+{
+"w": "狗",
+"p": "gǒu",
+"en": "dog",
+"lv": 1
+},
+{
+"w": "贵",
+"p": "guì",
+"en": "expensive; (bound form) highly valued; precious",
+"lv": 1
+},
+{
+"w": "国",
+"p": "guó",
+"en": "country; nation; state; (bound form) national",
+"lv": 1
+},
+{
+"w": "还",
+"p": "hái",
+"en": "still; still in progress",
+"lv": 1
+},
+{
+"w": "孩子",
+"p": "háizi",
+"en": "child",
+"lv": 1
+},
+{
+"w": "汉语",
+"p": "Hànyǔ",
+"en": "Chinese language",
+"lv": 1
+},
+{
+"w": "汉字",
+"p": "Hànzì",
+"en": "Chinese character(s)",
+"lv": 1
+},
+{
+"w": "好",
+"p": "hǎo",
+"en": "good; appropriate; proper",
+"lv": 1
+},
+{
+"w": "好吃",
+"p": "hǎochī",
+"en": "tasty; delicious",
+"lv": 1
+},
+{
+"w": "好看",
+"p": "hǎokàn",
+"en": "good-looking; nice-looking; (of a movie, book, TV show etc) good",
+"lv": 1
+},
+{
+"w": "好听",
+"p": "hǎotīng",
+"en": "pleasant to hear",
+"lv": 1
+},
+{
+"w": "好玩儿",
+"p": "hǎowánr",
+"en": "erhua variant of 好玩",
+"lv": 1
+},
+{
+"w": "号",
+"p": "hào",
+"en": "(literary) to call out; to command; (bound form) bugle; trumpet",
+"lv": 1
+},
+{
+"w": "喝",
+"p": "hē",
+"en": "to drink; variant of 嗬",
+"lv": 1
+},
+{
+"w": "和",
+"p": "hé",
+"en": "(joining two nouns) and; together with; with",
+"lv": 1
+},
+{
+"w": "很",
+"p": "hěn",
+"en": "very; quite; (also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)",
+"lv": 1
+},
+{
+"w": "后",
+"p": "hòu",
+"en": "back; behind; after; later",
+"lv": 1
+},
+{
+"w": "回",
+"p": "huí",
+"en": "to go back; to return; to turn back; to turn around; to reply; to answer",
+"lv": 1
+},
+{
+"w": "会",
+"p": "huì",
+"en": "can; to have the skill; to know how to; to be likely to; to be sure to",
+"lv": 1
+},
+{
+"w": "火车",
+"p": "huǒchē",
+"en": "train",
+"lv": 1
+},
+{
+"w": "鸡蛋",
+"p": "jīdàn",
+"en": "(chicken) egg; hen's egg",
+"lv": 1
+},
+{
+"w": "几",
+"p": "jǐ",
+"en": "how many; how much; several; a few",
+"lv": 1
+},
+{
+"w": "家",
+"p": "jiā",
+"en": "home; family",
+"lv": 1
+},
+{
+"w": "家人",
+"p": "jiārén",
+"en": "family member; (old) servant",
+"lv": 1
+},
+{
+"w": "见",
+"p": "jiàn",
+"en": "to see; to meet",
+"lv": 1
+},
+{
+"w": "件",
+"p": "jiàn",
+"en": "item; component",
+"lv": 1
+},
+{
+"w": "饺子",
+"p": "jiǎozi",
+"en": "dumpling; pot-sticker",
+"lv": 1
+},
+{
+"w": "叫",
+"p": "jiào",
+"en": "to shout; to call",
+"lv": 1
+},
+{
+"w": "姐姐",
+"p": "jiějie",
+"en": "older sister",
+"lv": 1
+},
+{
+"w": "今年",
+"p": "jīnnián",
+"en": "this year",
+"lv": 1
+},
+{
+"w": "今天",
+"p": "jīntiān",
+"en": "today; the present time; now",
+"lv": 1
+},
+{
+"w": "九",
+"p": "jiǔ",
+"en": "nine; 9",
+"lv": 1
+},
+{
+"w": "觉得",
+"p": "juéde",
+"en": "to think that...; to feel that...; to feel (uncomfortable etc)",
+"lv": 1
+},
+{
+"w": "开",
+"p": "kāi",
+"en": "to open (transitive or intransitive); (of ships, vehicles, troops etc) to start",
+"lv": 1
+},
+{
+"w": "开车",
+"p": "kāichē",
+"en": "to drive a car (or train etc); (slang) to post sexual content online; to make a sexual joke",
+"lv": 1
+},
+{
+"w": "看",
+"p": "kàn",
+"en": "to see; to look at; to read",
+"lv": 1
+},
+{
+"w": "看病",
+"p": "kànbìng",
+"en": "to visit a doctor; to see a patient",
+"lv": 1
+},
+{
+"w": "看见",
+"p": "kànjiàn",
+"en": "to see; to catch sight of",
+"lv": 1
+},
+{
+"w": "可以",
+"p": "kěyǐ",
+"en": "can; may",
+"lv": 1
+},
+{
+"w": "课",
+"p": "kè",
+"en": "subject; course",
+"lv": 1
+},
+{
+"w": "口",
+"p": "kǒu",
+"en": "mouth; classifier for things with mouths (people, domestic animals, cannons, wells etc)",
+"lv": 1
+},
+{
+"w": "块",
+"p": "kuài",
+"en": "lump; chunk; piece; classifier for pieces of cloth, cake, soap etc",
+"lv": 1
+},
+{
+"w": "来",
+"p": "lái",
+"en": "to come; (used as a substitute for a more specific verb)",
+"lv": 1
+},
+{
+"w": "老师",
+"p": "lǎoshī",
+"en": "teacher",
+"lv": 1
+},
+{
+"w": "了",
+"p": "le",
+"en": "(completed action marker); (modal particle indicating change of state, situation now)",
+"lv": 1
+},
+{
+"w": "冷",
+"p": "lěng",
+"en": "cold",
+"lv": 1
+},
+{
+"w": "里",
+"p": "lǐ",
+"en": "interior; inside",
+"lv": 1
+},
+{
+"w": "两",
+"p": "liǎng",
+"en": "two; both",
+"lv": 1
+},
+{
+"w": "零",
+"p": "líng",
+"en": "zero; nought",
+"lv": 1
+},
+{
+"w": "六",
+"p": "liù",
+"en": "six; 6",
+"lv": 1
+},
+{
+"w": "妈妈",
+"p": "māma",
+"en": "mama; mommy",
+"lv": 1
+},
+{
+"w": "吗",
+"p": "ma",
+"en": "(question particle for \"yes-no\" questions)",
+"lv": 1
+},
+{
+"w": "买",
+"p": "mǎi",
+"en": "to buy; to purchase",
+"lv": 1
+},
+{
+"w": "卖",
+"p": "mài",
+"en": "to sell; to betray",
+"lv": 1
+},
+{
+"w": "忙",
+"p": "máng",
+"en": "busy; hurriedly",
+"lv": 1
+},
+{
+"w": "猫",
+"p": "māo",
+"en": "cat; (dialect) to hide oneself",
+"lv": 1
+},
+{
+"w": "没关系",
+"p": "méi guānxi",
+"en": "it doesn't matter",
+"lv": 1
+},
+{
+"w": "没事",
+"p": "méishì",
+"en": "it's not important; it's nothing",
+"lv": 1
+},
+{
+"w": "没有",
+"p": "méiyǒu",
+"en": "haven't; hasn't",
+"lv": 1
+},
+{
+"w": "妹妹",
+"p": "mèimei",
+"en": "younger sister; young woman",
+"lv": 1
+},
+{
+"w": "们",
+"p": "men",
+"en": "plural marker for pronouns, and nouns referring to individuals",
+"lv": 1
+},
+{
+"w": "米饭",
+"p": "mǐfàn",
+"en": "(cooked) rice",
+"lv": 1
+},
+{
+"w": "面包",
+"p": "miànbāo",
+"en": "bread",
+"lv": 1
+},
+{
+"w": "面条儿",
+"p": "miàntiáor",
+"en": "erhua variant of 面条",
+"lv": 1
+},
+{
+"w": "明年",
+"p": "míngnián",
+"en": "next year",
+"lv": 1
+},
+{
+"w": "明天",
+"p": "míngtiān",
+"en": "tomorrow",
+"lv": 1
+},
+{
+"w": "名字",
+"p": "míngzi",
+"en": "name (of a person or thing)",
+"lv": 1
+},
+{
+"w": "哪",
+"p": "nǎ",
+"en": "how; which",
+"lv": 1
+},
+{
+"w": "哪个",
+"p": "nǎge",
+"en": "which; who",
+"lv": 1
+},
+{
+"w": "哪里",
+"p": "nǎlǐ",
+"en": "where?; somewhere",
+"lv": 1
+},
+{
+"w": "哪儿",
+"p": "nǎr",
+"en": "where?; wherever; anywhere; somewhere",
+"lv": 1
+},
+{
+"w": "哪些",
+"p": "nǎxiē",
+"en": "which ones?; who?",
+"lv": 1
+},
+{
+"w": "那",
+"p": "nà",
+"en": "(specifier) that; the; those (colloquial pr.); (pronoun) that (referring to persons, things or situations)",
+"lv": 1
+},
+{
+"w": "那边",
+"p": "nàbiān",
+"en": "over there; yonder",
+"lv": 1
+},
+{
+"w": "那个",
+"p": "nàge",
+"en": "that one; that thing",
+"lv": 1
+},
+{
+"w": "那里",
+"p": "nàlǐ",
+"en": "there; that place",
+"lv": 1
+},
+{
+"w": "那儿",
+"p": "nàr",
+"en": "there",
+"lv": 1
+},
+{
+"w": "那些",
+"p": "nàxiē",
+"en": "those",
+"lv": 1
+},
+{
+"w": "男",
+"p": "nán",
+"en": "(bound form) male; baron, the lowest of the five ranks of nobility 五等爵位",
+"lv": 1
+},
+{
+"w": "男朋友",
+"p": "nánpéngyou",
+"en": "boyfriend",
+"lv": 1
+},
+{
+"w": "呢",
+"p": "ne",
+"en": "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\"); (sentence-final particle) indicating that a state or situation still holds",
+"lv": 1
+},
+{
+"w": "能",
+"p": "néng",
+"en": "can; to be able to",
+"lv": 1
+},
+{
+"w": "你",
+"p": "nǐ",
+"en": "you (informal, as opposed to courteous 您)",
+"lv": 1
+},
+{
+"w": "你好",
+"p": "nǐ hǎo",
+"en": "hello; hi",
+"lv": 1
+},
+{
+"w": "你们",
+"p": "nǐmen",
+"en": "you (plural)",
+"lv": 1
+},
+{
+"w": "年",
+"p": "nián",
+"en": "year",
+"lv": 1
+},
+{
+"w": "您",
+"p": "nín",
+"en": "you (courteous, as opposed to informal 你)",
+"lv": 1
+},
+{
+"w": "牛奶",
+"p": "niúnǎi",
+"en": "cow's milk",
+"lv": 1
+},
+{
+"w": "女",
+"p": "nǚ",
+"en": "female; woman",
+"lv": 1
+},
+{
+"w": "女儿",
+"p": "nǚ’ér",
+"en": "daughter",
+"lv": 1
+},
+{
+"w": "女朋友",
+"p": "nǚpéngyou",
+"en": "girlfriend",
+"lv": 1
+},
+{
+"w": "女士",
+"p": "nǚshì",
+"en": "lady; madam",
+"lv": 1
+},
+{
+"w": "朋友",
+"p": "péngyou",
+"en": "friend",
+"lv": 1
+},
+{
+"w": "便宜",
+"p": "piányi",
+"en": "cheap; inexpensive; a petty advantage",
+"lv": 1
+},
+{
+"w": "漂亮",
+"p": "piàoliang",
+"en": "pretty; beautiful",
+"lv": 1
+},
+{
+"w": "苹果",
+"p": "píngguǒ",
+"en": "apple",
+"lv": 1
+},
+{
+"w": "七",
+"p": "qī",
+"en": "seven; 7",
+"lv": 1
+},
+{
+"w": "起床",
+"p": "qǐchuáng",
+"en": "to get out of bed; to get up",
+"lv": 1
+},
+{
+"w": "千",
+"p": "qiān",
+"en": "thousand",
+"lv": 1
+},
+{
+"w": "前",
+"p": "qián",
+"en": "front; forward",
+"lv": 1
+},
+{
+"w": "钱",
+"p": "qián",
+"en": "coin; money",
+"lv": 1
+},
+{
+"w": "请",
+"p": "qǐng",
+"en": "to ask; to invite",
+"lv": 1
+},
+{
+"w": "请问",
+"p": "qǐngwèn",
+"en": "Excuse me, may I ask...?",
+"lv": 1
+},
+{
+"w": "去",
+"p": "qù",
+"en": "to go; to go to (a place)",
+"lv": 1
+},
+{
+"w": "去年",
+"p": "qùnián",
+"en": "last year",
+"lv": 1
+},
+{
+"w": "热",
+"p": "rè",
+"en": "to warm up; to heat up",
+"lv": 1
+},
+{
+"w": "人",
+"p": "rén",
+"en": "person; people",
+"lv": 1
+},
+{
+"w": "认识",
+"p": "rènshi",
+"en": "to know; to recognize",
+"lv": 1
+},
+{
+"w": "日",
+"p": "rì",
+"en": "(bound form) sun; day",
+"lv": 1
+},
+{
+"w": "三",
+"p": "sān",
+"en": "three; 3",
+"lv": 1
+},
+{
+"w": "商店",
+"p": "shāngdiàn",
+"en": "store; shop",
+"lv": 1
+},
+{
+"w": "上",
+"p": "shàng",
+"en": "(bound form) up; upper; above; previous; first (of multiple parts)",
+"lv": 1
+},
+{
+"w": "上班",
+"p": "shàngbān",
+"en": "to go to work; to be on duty",
+"lv": 1
+},
+{
+"w": "上课",
+"p": "shàngkè",
+"en": "to go to class; to attend class",
+"lv": 1
+},
+{
+"w": "上午",
+"p": "shàngwǔ",
+"en": "morning",
+"lv": 1
+},
+{
+"w": "上学",
+"p": "shàngxué",
+"en": "to go to school; to attend school",
+"lv": 1
+},
+{
+"w": "少",
+"p": "shǎo",
+"en": "few; less",
+"lv": 1
+},
+{
+"w": "谁",
+"p": "shéi/shuí",
+"en": "who; also pr.",
+"lv": 1
+},
+{
+"w": "什么",
+"p": "shénme",
+"en": "what?; something; anything",
+"lv": 1
+},
+{
+"w": "生病",
+"p": "shēngbìng",
+"en": "to fall ill",
+"lv": 1
+},
+{
+"w": "十",
+"p": "shí",
+"en": "ten; 10",
+"lv": 1
+},
+{
+"w": "时候",
+"p": "shíhou",
+"en": "time; length of time",
+"lv": 1
+},
+{
+"w": "时间",
+"p": "shíjiān",
+"en": "(concept of) time; (duration of) time",
+"lv": 1
+},
+{
+"w": "事",
+"p": "shì",
+"en": "matter; thing",
+"lv": 1
+},
+{
+"w": "是",
+"p": "shì",
+"en": "to be (followed by substantives only); correct; right; true",
+"lv": 1
+},
+{
+"w": "手机",
+"p": "shǒujī",
+"en": "cell phone; mobile phone",
+"lv": 1
+},
+{
+"w": "书",
+"p": "shū",
+"en": "book; letter",
+"lv": 1
+},
+{
+"w": "书店",
+"p": "shūdiàn",
+"en": "bookstore",
+"lv": 1
+},
+{
+"w": "水",
+"p": "shuǐ",
+"en": "water; (after a name)... River",
+"lv": 1
+},
+{
+"w": "水果",
+"p": "shuǐguǒ",
+"en": "fruit",
+"lv": 1
+},
+{
+"w": "睡",
+"p": "shuì",
+"en": "to sleep; to lie down",
+"lv": 1
+},
+{
+"w": "睡觉",
+"p": "shuìjiào",
+"en": "to go to bed; to sleep",
+"lv": 1
+},
+{
+"w": "说",
+"p": "shuō",
+"en": "to speak; to talk; to say; to explain; to comment",
+"lv": 1
+},
+{
+"w": "说话",
+"p": "shuōhuà",
+"en": "to speak; to say",
+"lv": 1
+},
+{
+"w": "四",
+"p": "sì",
+"en": "four; 4",
+"lv": 1
+},
+{
+"w": "岁",
+"p": "suì",
+"en": "classifier for years (of age); year",
+"lv": 1
+},
+{
+"w": "他",
+"p": "tā",
+"en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日 and 他人)",
+"lv": 1
+},
+{
+"w": "它",
+"p": "tā",
+"en": "it",
+"lv": 1
+},
+{
+"w": "她",
+"p": "tā",
+"en": "she",
+"lv": 1
+},
+{
+"w": "他们",
+"p": "tāmen",
+"en": "they; them",
+"lv": 1
+},
+{
+"w": "它们",
+"p": "tāmen",
+"en": "they; them",
+"lv": 1
+},
+{
+"w": "她们",
+"p": "tāmen",
+"en": "they; them (females)",
+"lv": 1
+},
+{
+"w": "太",
+"p": "tài",
+"en": "highest; greatest",
+"lv": 1
+},
+{
+"w": "天",
+"p": "tiān",
+"en": "day; sky",
+"lv": 1
+},
+{
+"w": "天气",
+"p": "tiānqì",
+"en": "weather",
+"lv": 1
+},
+{
+"w": "听",
+"p": "tīng",
+"en": "to listen to; to hear; to heed; to obey",
+"lv": 1
+},
+{
+"w": "听见",
+"p": "tīngjiàn",
+"en": "to hear",
+"lv": 1
+},
+{
+"w": "同学",
+"p": "tóngxué",
+"en": "to study at the same school; fellow student",
+"lv": 1
+},
+{
+"w": "外",
+"p": "wài",
+"en": "outside; in addition",
+"lv": 1
+},
+{
+"w": "外边",
+"p": "wàibian",
+"en": "outside; outer surface",
+"lv": 1
+},
+{
+"w": "玩",
+"p": "wán",
+"en": "to play; to have fun",
+"lv": 1
+},
+{
+"w": "晚",
+"p": "wǎn",
+"en": "evening; night",
+"lv": 1
+},
+{
+"w": "晚饭",
+"p": "wǎnfàn",
+"en": "evening meal; dinner",
+"lv": 1
+},
+{
+"w": "晚上",
+"p": "wǎnshang",
+"en": "evening; night",
+"lv": 1
+},
+{
+"w": "喂",
+"p": "wèi",
+"en": "hey; to feed (an animal, baby, invalid etc)",
+"lv": 1
+},
+{
+"w": "问",
+"p": "wèn",
+"en": "to ask; to inquire",
+"lv": 1
+},
+{
+"w": "问题",
+"p": "wèntí",
+"en": "question; problem",
+"lv": 1
+},
+{
+"w": "我",
+"p": "wǒ",
+"en": "I; me; my",
+"lv": 1
+},
+{
+"w": "我们",
+"p": "wǒmen",
+"en": "we; us; ourselves; our",
+"lv": 1
+},
+{
+"w": "五",
+"p": "wǔ",
+"en": "five; 5",
+"lv": 1
+},
+{
+"w": "午饭",
+"p": "wǔfàn",
+"en": "lunch",
+"lv": 1
+},
+{
+"w": "喜欢",
+"p": "xǐhuan",
+"en": "to like; to be fond of",
+"lv": 1
+},
+{
+"w": "下",
+"p": "xià",
+"en": "down; downwards",
+"lv": 1
+},
+{
+"w": "下雨",
+"p": "xià yǔ",
+"en": "to rain",
+"lv": 1
+},
+{
+"w": "下班",
+"p": "xiàbān",
+"en": "to finish work; to get off work; next service (train, bus etc)",
+"lv": 1
+},
+{
+"w": "下课",
+"p": "xiàkè",
+"en": "to finish class; to get out of class",
+"lv": 1
+},
+{
+"w": "下午",
+"p": "xiàwǔ",
+"en": "afternoon; p.m.",
+"lv": 1
+},
+{
+"w": "先生",
+"p": "xiānsheng",
+"en": "teacher; gentleman; sir; mister (Mr.)",
+"lv": 1
+},
+{
+"w": "现在",
+"p": "xiànzài",
+"en": "now; at present; currently",
+"lv": 1
+},
+{
+"w": "想",
+"p": "xiǎng",
+"en": "to think (about); to think of; to devise",
+"lv": 1
+},
+{
+"w": "小",
+"p": "xiǎo",
+"en": "small; tiny",
+"lv": 1
+},
+{
+"w": "小朋友",
+"p": "xiǎopéngyǒu",
+"en": "child; kid (used to refer to a child, or by an adult to address a child, or, in Taiwan, to refer to sb's own child)",
+"lv": 1
+},
+{
+"w": "小时",
+"p": "xiǎoshí",
+"en": "hour",
+"lv": 1
+},
+{
+"w": "小学",
+"p": "xiǎoxué",
+"en": "elementary school; primary school",
+"lv": 1
+},
+{
+"w": "小学生",
+"p": "xiǎoxuéshēng",
+"en": "primary school student; schoolchild",
+"lv": 1
+},
+{
+"w": "些",
+"p": "xiē",
+"en": "classifier indicating a small amount or small number greater than 1: some, a few, several",
+"lv": 1
+},
+{
+"w": "写",
+"p": "xiě",
+"en": "to write",
+"lv": 1
+},
+{
+"w": "谢谢",
+"p": "xièxie",
+"en": "to thank; thanks",
+"lv": 1
+},
+{
+"w": "新",
+"p": "xīn",
+"en": "new; newly",
+"lv": 1
+},
+{
+"w": "星期",
+"p": "xīngqī",
+"en": "week; day of the week",
+"lv": 1
+},
+{
+"w": "星期日",
+"p": "xīngqīrì",
+"en": "Sunday",
+"lv": 1
+},
+{
+"w": "星期天",
+"p": "xīngqītiān",
+"en": "Sunday",
+"lv": 1
+},
+{
+"w": "休息",
+"p": "xiūxi",
+"en": "rest; to rest",
+"lv": 1
+},
+{
+"w": "学",
+"p": "xué",
+"en": "to learn; to study",
+"lv": 1
+},
+{
+"w": "学生",
+"p": "xuéshēng",
+"en": "student; schoolchild",
+"lv": 1
+},
+{
+"w": "学习",
+"p": "xuéxí",
+"en": "to learn; to study",
+"lv": 1
+},
+{
+"w": "学校",
+"p": "xuéxiào",
+"en": "school",
+"lv": 1
+},
+{
+"w": "雪",
+"p": "xuě",
+"en": "snow; (literary) to wipe away (a humiliation etc)",
+"lv": 1
+},
+{
+"w": "要",
+"p": "yào",
+"en": "to want; to need; to ask for; will; shall; about to",
+"lv": 1
+},
+{
+"w": "也",
+"p": "yě",
+"en": "also; too; as well; (not...) either; (used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
+"lv": 1
+},
+{
+"w": "一",
+"p": "yī",
+"en": "one; single",
+"lv": 1
+},
+{
+"w": "衣服",
+"p": "yīfu",
+"en": "clothes",
+"lv": 1
+},
+{
+"w": "医生",
+"p": "yīshēng",
+"en": "doctor; medical practitioner",
+"lv": 1
+},
+{
+"w": "医院",
+"p": "yīyuàn",
+"en": "hospital",
+"lv": 1
+},
+{
+"w": "一半",
+"p": "yíbàn",
+"en": "half",
+"lv": 1
+},
+{
+"w": "一下",
+"p": "yíxià",
+"en": "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try); all at once; suddenly",
+"lv": 1
+},
+{
+"w": "椅子",
+"p": "yǐzi",
+"en": "chair",
+"lv": 1
+},
+{
+"w": "一点儿",
+"p": "yìdiǎnr",
+"en": "erhua variant of 一点",
+"lv": 1
+},
+{
+"w": "一些",
+"p": "yìxiē",
+"en": "some; a few; a little; (following an adjective) slightly...er",
+"lv": 1
+},
+{
+"w": "有",
+"p": "yǒu",
+"en": "to have; there is; (bound form) having; with; -ful; -ed; -al (as in 有意 intentional)",
+"lv": 1
+},
+{
+"w": "有的",
+"p": "yǒude",
+"en": "(there are) some (who are...); some (exist)",
+"lv": 1
+},
+{
+"w": "有点儿",
+"p": "yǒudiǎnr",
+"en": "slightly; a little",
+"lv": 1
+},
+{
+"w": "有些",
+"p": "yǒuxiē",
+"en": "some; somewhat; rather; a bit",
+"lv": 1
+},
+{
+"w": "雨",
+"p": "yǔ",
+"en": "rain",
+"lv": 1
+},
+{
+"w": "元",
+"p": "yuán",
+"en": "currency unit (esp. Chinese yuan); (bound form) first; original; primary",
+"lv": 1
+},
+{
+"w": "月",
+"p": "yuè",
+"en": "moon; month",
+"lv": 1
+},
+{
+"w": "再",
+"p": "zài",
+"en": "again; once more; re-; further; beyond this point of time",
+"lv": 1
+},
+{
+"w": "在",
+"p": "zài",
+"en": "to exist; to be alive; (of sb or sth) to be (located) at",
+"lv": 1
+},
+{
+"w": "再见",
+"p": "zàijiàn",
+"en": "goodbye; see you again later",
+"lv": 1
+},
+{
+"w": "早",
+"p": "zǎo",
+"en": "early; morning",
+"lv": 1
+},
+{
+"w": "早饭",
+"p": "zǎofàn",
+"en": "breakfast",
+"lv": 1
+},
+{
+"w": "早上",
+"p": "zǎoshang",
+"en": "early morning",
+"lv": 1
+},
+{
+"w": "怎么",
+"p": "zěnme",
+"en": "how?; what?",
+"lv": 1
+},
+{
+"w": "怎么样",
+"p": "zěnmeyàng",
+"en": "how?; how about?",
+"lv": 1
+},
+{
+"w": "找",
+"p": "zhǎo",
+"en": "to try to find; to look for",
+"lv": 1
+},
+{
+"w": "这",
+"p": "zhè",
+"en": "(pronoun) this; these; (bound form) this; the (followed by a noun)",
+"lv": 1
+},
+{
+"w": "这边",
+"p": "zhèbiān",
+"en": "this side; here",
+"lv": 1
+},
+{
+"w": "这个",
+"p": "zhège",
+"en": "(pronoun) this; (adjective) this",
+"lv": 1
+},
+{
+"w": "这里",
+"p": "zhèlǐ",
+"en": "here",
+"lv": 1
+},
+{
+"w": "这儿",
+"p": "zhèr",
+"en": "here",
+"lv": 1
+},
+{
+"w": "这些",
+"p": "zhèxiē",
+"en": "these",
+"lv": 1
+},
+{
+"w": "真",
+"p": "zhēn",
+"en": "really; truly",
+"lv": 1
+},
+{
+"w": "正在",
+"p": "zhèngzài",
+"en": "to be in the process of (doing sth); to be currently...-ing",
+"lv": 1
+},
+{
+"w": "只",
+"p": "zhī",
+"en": "classifier for birds and certain animals, one of a pair, some utensils, vessels etc",
+"lv": 1
+},
+{
+"w": "知道",
+"p": "zhīdào",
+"en": "to know; to become aware of; also pr.",
+"lv": 1
+},
+{
+"w": "中国",
+"p": "Zhōngguó",
+"en": "China",
+"lv": 1
+},
+{
+"w": "中文",
+"p": "Zhōngwén",
+"en": "Chinese language",
+"lv": 1
+},
+{
+"w": "中午",
+"p": "zhōngwǔ",
+"en": "noon; midday",
+"lv": 1
+},
+{
+"w": "中学",
+"p": "zhōngxué",
+"en": "middle school",
+"lv": 1
+},
+{
+"w": "中学生",
+"p": "zhōngxuéshēng",
+"en": "middle-school student; high school student",
+"lv": 1
+},
+{
+"w": "住",
+"p": "zhù",
+"en": "to live; to reside; to stay; to stop; to cease",
+"lv": 1
+},
+{
+"w": "桌子",
+"p": "zhuōzi",
+"en": "table; desk",
+"lv": 1
+},
+{
+"w": "字",
+"p": "zì",
+"en": "letter; symbol",
+"lv": 1
+},
+{
+"w": "昨天",
+"p": "zuótiān",
+"en": "yesterday",
+"lv": 1
+},
+{
+"w": "坐",
+"p": "zuò",
+"en": "to sit; to take a seat",
+"lv": 1
+},
+{
+"w": "做",
+"p": "zuò",
+"en": "to make; to produce; to write; to compose",
+"lv": 1
+},
+{
+"w": "做饭",
+"p": "zuò fàn",
+"en": "to prepare a meal; to cook",
+"lv": 1
+},
+{
+"w": "啊",
+"p": "a",
+"en": "modal particle ending sentence, showing affirmation, approval, or consent",
+"lv": 2
+},
+{
+"w": "爱好",
+"p": "àihào",
+"en": "to like; to be fond of; to take pleasure in; to be keen on; interest; hobby",
+"lv": 2
+},
+{
+"w": "白色",
+"p": "báisè",
+"en": "white; fig. reactionary",
+"lv": 2
+},
+{
+"w": "班",
+"p": "bān",
+"en": "team; class; grade; (military) squad",
+"lv": 2
+},
+{
+"w": "帮",
+"p": "bāng",
+"en": "bāng / 幇 bāng / 幚 bāng / 幫",
+"lv": 2
+},
+{
+"w": "帮忙",
+"p": "bāngmáng",
+"en": "to help; to lend a hand",
+"lv": 2
+},
+{
+"w": "包",
+"p": "bāo",
+"en": "to cover; to wrap",
+"lv": 2
+},
+{
+"w": "本子",
+"p": "běnzi",
+"en": "book; notebook",
+"lv": 2
+},
+{
+"w": "比",
+"p": "bǐ",
+"en": "to compare; (followed by a noun and adjective) more {adj.} than {noun}",
+"lv": 2
+},
+{
+"w": "笔",
+"p": "bǐ",
+"en": "writing brush; writing implement (pen, pencil etc); brushstroke; stroke (in painting or calligraphy)",
+"lv": 2
+},
+{
+"w": "别",
+"p": "bié",
+"en": "to leave; to part (from); (literary) to differentiate; to distinguish",
+"lv": 2
+},
+{
+"w": "不错",
+"p": "búcuò",
+"en": "correct; right",
+"lv": 2
+},
+{
+"w": "不好意思",
+"p": "bù hǎoyìsi",
+"en": "to feel embarrassed; to find it embarrassing",
+"lv": 2
+},
+{
+"w": "长",
+"p": "cháng",
+"en": "long; (bound form) length",
+"lv": 2
+},
+{
+"w": "车站",
+"p": "chēzhàn",
+"en": "rail station; bus stop",
+"lv": 2
+},
+{
+"w": "出",
+"p": "chū",
+"en": "chū / 出 chū / 齣",
+"lv": 2
+},
+{
+"w": "出国",
+"p": "chūguó",
+"en": "to go abroad; to leave the country",
+"lv": 2
+},
+{
+"w": "出来",
+"p": "chūlái",
+"en": "to come out; to appear",
+"lv": 2
+},
+{
+"w": "出门",
+"p": "chūmén",
+"en": "to go out; to leave home",
+"lv": 2
+},
+{
+"w": "出去",
+"p": "chūqù",
+"en": "to go out",
+"lv": 2
+},
+{
+"w": "床",
+"p": "chuáng",
+"en": "chuáng / 床 chuáng / 牀",
+"lv": 2
+},
+{
+"w": "词",
+"p": "cí",
+"en": "cí / 䛐 cí / 詞",
+"lv": 2
+},
+{
+"w": "次",
+"p": "cì",
+"en": "next in sequence; second",
+"lv": 2
+},
+{
+"w": "从",
+"p": "cóng",
+"en": "cóng / 从 cóng / 從",
+"lv": 2
+},
+{
+"w": "从小",
+"p": "cóngxiǎo",
+"en": "from childhood; from a young age",
+"lv": 2
+},
+{
+"w": "错",
+"p": "cuò",
+"en": "mistake; wrong",
+"lv": 2
+},
+{
+"w": "打",
+"p": "dǎ",
+"en": "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打伞 \"to hold an umbrella\", 打电话 \"to make a phone call\",",
+"lv": 2
+},
+{
+"w": "打车",
+"p": "dǎchē",
+"en": "to take a taxi (in town); to hitch a lift",
+"lv": 2
+},
+{
+"w": "打开",
+"p": "dǎkāi",
+"en": "to open; to show (a ticket)",
+"lv": 2
+},
+{
+"w": "但",
+"p": "dàn",
+"en": "but; yet; however; still; merely; only; just",
+"lv": 2
+},
+{
+"w": "但是",
+"p": "dànshì",
+"en": "but; however",
+"lv": 2
+},
+{
+"w": "得",
+"p": "de",
+"en": "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+"lv": 2
+},
+{
+"w": "地",
+"p": "de",
+"en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct",
+"lv": 2
+},
+{
+"w": "等",
+"p": "děng",
+"en": "to wait for; to await; by the time; when; till",
+"lv": 2
+},
+{
+"w": "地铁",
+"p": "dìtiě",
+"en": "underground railway; subway; subway train",
+"lv": 2
+},
+{
+"w": "点",
+"p": "diǎn",
+"en": "to touch briefly; to tap; to mark with a dot; to check off (on a list)",
+"lv": 2
+},
+{
+"w": "懂",
+"p": "dǒng",
+"en": "to understand; to comprehend",
+"lv": 2
+},
+{
+"w": "动",
+"p": "dòng",
+"en": "(of sth) to move; to set in movement",
+"lv": 2
+},
+{
+"w": "饭馆",
+"p": "fànguǎn",
+"en": "restaurant",
+"lv": 2
+},
+{
+"w": "飞",
+"p": "fēi",
+"en": "to fly",
+"lv": 2
+},
+{
+"w": "高",
+"p": "gāo",
+"en": "high; tall",
+"lv": 2
+},
+{
+"w": "高中",
+"p": "gāozhōng",
+"en": "senior high school (abbr. for 高级中学)",
+"lv": 2
+},
+{
+"w": "告诉",
+"p": "gàosu",
+"en": "to tell; to inform; to let know",
+"lv": 2
+},
+{
+"w": "个子",
+"p": "gèzi",
+"en": "stature; height; size (of a person or object); (agriculture) bundle of cereal stalks tied together",
+"lv": 2
+},
+{
+"w": "跟",
+"p": "gēn",
+"en": "heel; to follow closely",
+"lv": 2
+},
+{
+"w": "公交车",
+"p": "gōngjiāochē",
+"en": "public transport vehicle; town bus",
+"lv": 2
+},
+{
+"w": "过",
+"p": "guò",
+"en": "to cross; to go over",
+"lv": 2
+},
+{
+"w": "过来",
+"p": "guòlái",
+"en": "to come over; to manage",
+"lv": 2
+},
+{
+"w": "过年",
+"p": "guònián",
+"en": "to celebrate the Chinese New Year",
+"lv": 2
+},
+{
+"w": "过去",
+"p": "guòqù",
+"en": "(in the) past; former; previous; to go over; to pass by",
+"lv": 2
+},
+{
+"w": "过",
+"p": "guo",
+"en": "(experienced action marker)",
+"lv": 2
+},
+{
+"w": "还是",
+"p": "háishi",
+"en": "still (as before); had better",
+"lv": 2
+},
+{
+"w": "黑色",
+"p": "hēisè",
+"en": "black",
+"lv": 2
+},
+{
+"w": "红茶",
+"p": "hóngchá",
+"en": "black tea",
+"lv": 2
+},
+{
+"w": "红色",
+"p": "hóngsè",
+"en": "red (color); revolutionary",
+"lv": 2
+},
+{
+"w": "后面",
+"p": "hòumiàn",
+"en": "the back; the rear; the last bit; behind; near the end; at the back",
+"lv": 2
+},
+{
+"w": "花",
+"p": "huā",
+"en": "huā / 花 huā / 芲 huā / 蘤",
+"lv": 2
+},
+{
+"w": "花",
+"p": "huā",
+"en": "huā / 花 huā / 芲 huā / 蘤",
+"lv": 2
+},
+{
+"w": "画",
+"p": "huà",
+"en": "to draw; to paint; picture; painting",
+"lv": 2
+},
+{
+"w": "坏",
+"p": "huài",
+"en": "bad; spoiled",
+"lv": 2
+},
+{
+"w": "回来",
+"p": "huílái",
+"en": "to return; to come back",
+"lv": 2
+},
+{
+"w": "回去",
+"p": "huíqù",
+"en": "to return; to go back",
+"lv": 2
+},
+{
+"w": "机场",
+"p": "jīchǎng",
+"en": "airport; airfield; (slang) service provider for Shadowsocks or similar software for circumventing Internet censorship",
+"lv": 2
+},
+{
+"w": "机票",
+"p": "jīpiào",
+"en": "plane ticket; airline ticket",
+"lv": 2
+},
+{
+"w": "记得",
+"p": "jìde",
+"en": "to remember",
+"lv": 2
+},
+{
+"w": "间",
+"p": "jiān",
+"en": "between; among",
+"lv": 2
+},
+{
+"w": "教",
+"p": "jiāo",
+"en": "to teach; to instruct",
+"lv": 2
+},
+{
+"w": "教室",
+"p": "jiàoshì",
+"en": "classroom",
+"lv": 2
+},
+{
+"w": "介绍",
+"p": "jièshào",
+"en": "to introduce (sb to sb); to give a presentation",
+"lv": 2
+},
+{
+"w": "进",
+"p": "jìn",
+"en": "to go forward; to advance",
+"lv": 2
+},
+{
+"w": "近",
+"p": "jìn",
+"en": "near; close to",
+"lv": 2
+},
+{
+"w": "进来",
+"p": "jìnlái",
+"en": "to come in",
+"lv": 2
+},
+{
+"w": "进去",
+"p": "jìnqù",
+"en": "to go in",
+"lv": 2
+},
+{
+"w": "经常",
+"p": "jīngcháng",
+"en": "frequently; constantly; regularly; often; day-to-day; everyday; daily",
+"lv": 2
+},
+{
+"w": "酒店",
+"p": "jiǔdiàn",
+"en": "wine shop; pub (public house)",
+"lv": 2
+},
+{
+"w": "就",
+"p": "jiù",
+"en": "(after a suppositional clause) in that case; then; (after a clause of action) as soon as; immediately after",
+"lv": 2
+},
+{
+"w": "咖啡",
+"p": "kāfēi",
+"en": "(loanword) coffee",
+"lv": 2
+},
+{
+"w": "开始",
+"p": "kāishǐ",
+"en": "to begin; beginning",
+"lv": 2
+},
+{
+"w": "开学",
+"p": "kāixué",
+"en": "(of a student) to start school; (of a semester) to begin",
+"lv": 2
+},
+{
+"w": "考",
+"p": "kǎo",
+"en": "kǎo / 攷 kǎo / 考",
+"lv": 2
+},
+{
+"w": "考试",
+"p": "kǎoshì",
+"en": "to take an exam; exam",
+"lv": 2
+},
+{
+"w": "可能",
+"p": "kěnéng",
+"en": "might (happen); possible",
+"lv": 2
+},
+{
+"w": "裤子",
+"p": "kùzi",
+"en": "trousers; pants",
+"lv": 2
+},
+{
+"w": "快",
+"p": "kuài",
+"en": "rapid; quick",
+"lv": 2
+},
+{
+"w": "快乐",
+"p": "kuàilè",
+"en": "happy; joyful",
+"lv": 2
+},
+{
+"w": "快要",
+"p": "kuàiyào",
+"en": "nearly at the point of (doing sth); about to (do sth)",
+"lv": 2
+},
+{
+"w": "篮球",
+"p": "lánqiú",
+"en": "basketball",
+"lv": 2
+},
+{
+"w": "累",
+"p": "lèi",
+"en": "tired; weary",
+"lv": 2
+},
+{
+"w": "离",
+"p": "lí",
+"en": "to leave; to part from",
+"lv": 2
+},
+{
+"w": "里面",
+"p": "lǐmiàn",
+"en": "lǐ miàn / 裏面 lǐ miàn / 裡面",
+"lv": 2
+},
+{
+"w": "楼",
+"p": "lóu",
+"en": "house with more than 1 story; storied building",
+"lv": 2
+},
+{
+"w": "路",
+"p": "lù",
+"en": "road; journey",
+"lv": 2
+},
+{
+"w": "路上",
+"p": "lùshang",
+"en": "on the road; on the way; en route",
+"lv": 2
+},
+{
+"w": "旅游",
+"p": "lǚyóu",
+"en": "trip; journey",
+"lv": 2
+},
+{
+"w": "绿茶",
+"p": "lǜchá",
+"en": "green tea; (slang) (of a girl) seemingly innocent and charming but actually calculating and manipulative; a girl who has these qualities",
+"lv": 2
+},
+{
+"w": "绿色",
+"p": "lǜsè",
+"en": "green",
+"lv": 2
+},
+{
+"w": "慢",
+"p": "màn",
+"en": "slow",
+"lv": 2
+},
+{
+"w": "没意思",
+"p": "méi yìsi",
+"en": "boring; of no interest",
+"lv": 2
+},
+{
+"w": "每",
+"p": "měi",
+"en": "each; every",
+"lv": 2
+},
+{
+"w": "门",
+"p": "mén",
+"en": "gate; door; doorway; gateway; opening; valve; switch; other door-like or gate-like structure",
+"lv": 2
+},
+{
+"w": "门口",
+"p": "ménkǒu",
+"en": "doorway; gate",
+"lv": 2
+},
+{
+"w": "门票",
+"p": "ménpiào",
+"en": "ticket (for theater, cinema etc)",
+"lv": 2
+},
+{
+"w": "面",
+"p": "miàn",
+"en": "miàn / 面 miàn / 麪 miàn / 麵",
+"lv": 2
+},
+{
+"w": "名",
+"p": "míng",
+"en": "name; noun (part of speech)",
+"lv": 2
+},
+{
+"w": "拿",
+"p": "ná",
+"en": "ná / 㧱 ná / 拏 ná / 拿",
+"lv": 2
+},
+{
+"w": "那么",
+"p": "nàme",
+"en": "nà me / 那麼 nà me / 那麽",
+"lv": 2
+},
+{
+"w": "那样",
+"p": "nàyàng",
+"en": "that kind; that sort",
+"lv": 2
+},
+{
+"w": "奶茶",
+"p": "nǎichá",
+"en": "milk tea",
+"lv": 2
+},
+{
+"w": "奶奶",
+"p": "nǎinai",
+"en": "(informal) grandma (paternal grandmother); (respectful) mistress of the house",
+"lv": 2
+},
+{
+"w": "男孩儿",
+"p": "nánháir",
+"en": "erhua form of 男孩",
+"lv": 2
+},
+{
+"w": "鸟",
+"p": "niǎo",
+"en": "bird; \"bird\" radical in Chinese characters (Kangxi radical 196)",
+"lv": 2
+},
+{
+"w": "女孩儿",
+"p": "nǚháir",
+"en": "erhua form of 女孩",
+"lv": 2
+},
+{
+"w": "旁边",
+"p": "pángbiān",
+"en": "side; adjacent place",
+"lv": 2
+},
+{
+"w": "跑",
+"p": "pǎo",
+"en": "to run; to run away",
+"lv": 2
+},
+{
+"w": "跑步",
+"p": "pǎobù",
+"en": "to run; to jog",
+"lv": 2
+},
+{
+"w": "票",
+"p": "piào",
+"en": "ticket; ballot",
+"lv": 2
+},
+{
+"w": "妻子",
+"p": "qīzi",
+"en": "wife",
+"lv": 2
+},
+{
+"w": "起来",
+"p": "qǐlái",
+"en": "qǐ lai qi lai",
+"lv": 2
+},
+{
+"w": "前面",
+"p": "qiánmiàn",
+"en": "ahead; in front",
+"lv": 2
+},
+{
+"w": "晴",
+"p": "qíng",
+"en": "clear; fine (weather)",
+"lv": 2
+},
+{
+"w": "球",
+"p": "qiú",
+"en": "qiú / 毬 qiú / 球",
+"lv": 2
+},
+{
+"w": "让",
+"p": "ràng",
+"en": "to yield; to permit",
+"lv": 2
+},
+{
+"w": "肉",
+"p": "ròu",
+"en": "meat; flesh",
+"lv": 2
+},
+{
+"w": "商场",
+"p": "shāngchǎng",
+"en": "shopping mall; shopping center",
+"lv": 2
+},
+{
+"w": "上来",
+"p": "shànglái",
+"en": "to come up; to approach",
+"lv": 2
+},
+{
+"w": "上面",
+"p": "shàngmiàn",
+"en": "on top of; above-mentioned",
+"lv": 2
+},
+{
+"w": "上去",
+"p": "shàngqù",
+"en": "to go up",
+"lv": 2
+},
+{
+"w": "上网",
+"p": "shàngwǎng",
+"en": "to go online; to connect to the Internet",
+"lv": 2
+},
+{
+"w": "身体",
+"p": "shēntǐ",
+"en": "the body; one's health",
+"lv": 2
+},
+{
+"w": "生日",
+"p": "shēngrì",
+"en": "birthday",
+"lv": 2
+},
+{
+"w": "时",
+"p": "shí",
+"en": "shí / 旹 shí / 時",
+"lv": 2
+},
+{
+"w": "事情",
+"p": "shìqing",
+"en": "affair; matter; thing; business",
+"lv": 2
+},
+{
+"w": "手",
+"p": "shǒu",
+"en": "hand; (formal) to hold",
+"lv": 2
+},
+{
+"w": "手表",
+"p": "shǒubiǎo",
+"en": "wristwatch",
+"lv": 2
+},
+{
+"w": "书包",
+"p": "shūbāo",
+"en": "schoolbag; satchel",
+"lv": 2
+},
+{
+"w": "舒服",
+"p": "shūfu",
+"en": "comfortable; feeling well",
+"lv": 2
+},
+{
+"w": "送",
+"p": "sòng",
+"en": "to send; to deliver; to transmit; to give (as a present)",
+"lv": 2
+},
+{
+"w": "虽然",
+"p": "suīrán",
+"en": "although; even though (often used correlatively with 可是 or 但是 etc)",
+"lv": 2
+},
+{
+"w": "所以",
+"p": "suǒyǐ",
+"en": "therefore; as a result",
+"lv": 2
+},
+{
+"w": "疼",
+"p": "téng",
+"en": "(it) hurts; sore; to love dearly",
+"lv": 2
+},
+{
+"w": "踢",
+"p": "tī",
+"en": "to kick; to play (e.g. soccer)",
+"lv": 2
+},
+{
+"w": "题",
+"p": "tí",
+"en": "topic; problem for discussion",
+"lv": 2
+},
+{
+"w": "条",
+"p": "tiáo",
+"en": "strip; item",
+"lv": 2
+},
+{
+"w": "跳舞",
+"p": "tiàowǔ",
+"en": "to dance",
+"lv": 2
+},
+{
+"w": "头",
+"p": "tóu",
+"en": "head; hair style",
+"lv": 2
+},
+{
+"w": "外国",
+"p": "wàiguó",
+"en": "foreign country",
+"lv": 2
+},
+{
+"w": "外面",
+"p": "wàimiàn",
+"en": "outside (also pr. for this sense); surface",
+"lv": 2
+},
+{
+"w": "完",
+"p": "wán",
+"en": "to finish; to be over",
+"lv": 2
+},
+{
+"w": "万",
+"p": "wàn",
+"en": "ten thousand; a great number",
+"lv": 2
+},
+{
+"w": "往",
+"p": "wǎng",
+"en": "wǎng / 往 wǎng / 徃",
+"lv": 2
+},
+{
+"w": "网上",
+"p": "wǎngshang",
+"en": "online",
+"lv": 2
+},
+{
+"w": "忘",
+"p": "wàng",
+"en": "to forget; to overlook",
+"lv": 2
+},
+{
+"w": "位",
+"p": "wèi",
+"en": "position; location",
+"lv": 2
+},
+{
+"w": "为什么",
+"p": "wèi shénme",
+"en": "why?; for what reason?",
+"lv": 2
+},
+{
+"w": "希望",
+"p": "xīwàng",
+"en": "to hope; a hope; a wish",
+"lv": 2
+},
+{
+"w": "洗",
+"p": "xǐ",
+"en": "to wash; to bathe; to develop (photographs)",
+"lv": 2
+},
+{
+"w": "洗手间",
+"p": "xǐshǒujiān",
+"en": "toilet; lavatory",
+"lv": 2
+},
+{
+"w": "下来",
+"p": "xiàlái",
+"en": "to come down; (completed action marker)",
+"lv": 2
+},
+{
+"w": "下面",
+"p": "xiàmiàn",
+"en": "xià miàn / 下面 xià miàn / 下麵",
+"lv": 2
+},
+{
+"w": "下去",
+"p": "xiàqù",
+"en": "to go down; to descend",
+"lv": 2
+},
+{
+"w": "小孩儿",
+"p": "xiǎoháir",
+"en": "erhua variant of 小孩",
+"lv": 2
+},
+{
+"w": "小时候",
+"p": "xiǎoshíhou",
+"en": "in one's childhood",
+"lv": 2
+},
+{
+"w": "笑",
+"p": "xiào",
+"en": "xiào / 咲 xiào / 笑",
+"lv": 2
+},
+{
+"w": "姓",
+"p": "xìng",
+"en": "family name; surname; to be surnamed...",
+"lv": 2
+},
+{
+"w": "姓名",
+"p": "xìngmíng",
+"en": "surname and given name; full name",
+"lv": 2
+},
+{
+"w": "颜色",
+"p": "yánsè",
+"en": "color; countenance",
+"lv": 2
+},
+{
+"w": "眼睛",
+"p": "yǎnjing",
+"en": "eye",
+"lv": 2
+},
+{
+"w": "药",
+"p": "yào",
+"en": "yào / 葯 yào / 藥",
+"lv": 2
+},
+{
+"w": "药店",
+"p": "yàodiàn",
+"en": "pharmacy; drugstore",
+"lv": 2
+},
+{
+"w": "爷爷",
+"p": "yéye",
+"en": "(coll.) paternal grandfather; grandpa",
+"lv": 2
+},
+{
+"w": "一会儿",
+"p": "yíhuìr",
+"en": "a moment; a while",
+"lv": 2
+},
+{
+"w": "已经",
+"p": "yǐjīng",
+"en": "already",
+"lv": 2
+},
+{
+"w": "一起",
+"p": "yìqǐ",
+"en": "(in) the same place; together; in company (with)",
+"lv": 2
+},
+{
+"w": "意思",
+"p": "yìsi",
+"en": "idea; opinion",
+"lv": 2
+},
+{
+"w": "阴",
+"p": "yīn",
+"en": "yīn / 陰 yīn / 隂",
+"lv": 2
+},
+{
+"w": "因为",
+"p": "yīnwèi",
+"en": "because; owing to; on account of",
+"lv": 2
+},
+{
+"w": "游",
+"p": "yóu",
+"en": "yóu / 游 yóu / 遊",
+"lv": 2
+},
+{
+"w": "游泳",
+"p": "yóuyǒng",
+"en": "swimming; to swim",
+"lv": 2
+},
+{
+"w": "有意思",
+"p": "yǒu yìsi",
+"en": "interesting; meaningful",
+"lv": 2
+},
+{
+"w": "有时",
+"p": "yǒushí",
+"en": "sometimes; now and then",
+"lv": 2
+},
+{
+"w": "右",
+"p": "yòu",
+"en": "(bound form) right; right-hand side; (bound form) (politics) right of center",
+"lv": 2
+},
+{
+"w": "右边",
+"p": "yòubian",
+"en": "right side; right, to the right",
+"lv": 2
+},
+{
+"w": "鱼",
+"p": "yú",
+"en": "fish; used in the names of various aquatic animals that are not fish (including abalone 鲍鱼, alligators and crocodiles",
+"lv": 2
+},
+{
+"w": "远",
+"p": "yuǎn",
+"en": "far; distant",
+"lv": 2
+},
+{
+"w": "运动",
+"p": "yùndòng",
+"en": "to move; to exercise",
+"lv": 2
+},
+{
+"w": "站",
+"p": "zhàn",
+"en": "station; to stand",
+"lv": 2
+},
+{
+"w": "丈夫",
+"p": "zhàngfu",
+"en": "husband",
+"lv": 2
+},
+{
+"w": "这么",
+"p": "zhème",
+"en": "zhè me / 這麼 zhè me / 這麽",
+"lv": 2
+},
+{
+"w": "这样",
+"p": "zhèyàng",
+"en": "this way; like this; so; (before a noun) this kind of; such",
+"lv": 2
+},
+{
+"w": "着",
+"p": "zhe",
+"en": "zhe / 着 zhe / 著",
+"lv": 2
+},
+{
+"w": "正",
+"p": "zhèng",
+"en": "straight; upright",
+"lv": 2
+},
+{
+"w": "周",
+"p": "zhōu",
+"en": "zhōu / 周 zhōu / 週",
+"lv": 2
+},
+{
+"w": "准备",
+"p": "zhǔnbèi",
+"en": "preparation; to prepare",
+"lv": 2
+},
+{
+"w": "自己",
+"p": "zìjǐ",
+"en": "oneself; (attributive) one's own",
+"lv": 2
+},
+{
+"w": "走",
+"p": "zǒu",
+"en": "to walk; to go",
+"lv": 2
+},
+{
+"w": "走路",
+"p": "zǒulù",
+"en": "to walk; to go on foot; to leave; to depart",
+"lv": 2
+},
+{
+"w": "足球",
+"p": "zúqiú",
+"en": "soccer; football; a soccer ball; a football",
+"lv": 2
+},
+{
+"w": "最",
+"p": "zuì",
+"en": "zuì / 㝡 zuì / 冣 zuì / 最",
+"lv": 2
+},
+{
+"w": "左",
+"p": "zuǒ",
+"en": "left; the Left (politics)",
+"lv": 2
+},
+{
+"w": "左边",
+"p": "zuǒbian",
+"en": "left; the left side",
+"lv": 2
+},
+{
+"w": "阿姨",
+"p": "āyí",
+"en": "maternal aunt; step-mother",
+"lv": 3
+},
+{
+"w": "矮",
+"p": "ǎi",
+"en": "(of a person) short; (of a wall etc) low",
+"lv": 3
+},
+{
+"w": "爱人",
+"p": "àiren",
+"en": "spouse (PRC); lover (non-PRC)",
+"lv": 3
+},
+{
+"w": "安静",
+"p": "ānjìng",
+"en": "quiet; peaceful",
+"lv": 3
+},
+{
+"w": "安全",
+"p": "ānquán",
+"en": "safe; secure; safety; security",
+"lv": 3
+},
+{
+"w": "把",
+"p": "bǎ",
+"en": "to hold; to grasp; to hold a baby in position to help it urinate or defecate",
+"lv": 3
+},
+{
+"w": "搬",
+"p": "bān",
+"en": "to move (i.e. relocate oneself); to move (sth relatively heavy or bulky)",
+"lv": 3
+},
+{
+"w": "班级",
+"p": "bānjí",
+"en": "class (group of students); grade (in school)",
+"lv": 3
+},
+{
+"w": "搬家",
+"p": "bānjiā",
+"en": "to move house; to relocate; to remove (sth)",
+"lv": 3
+},
+{
+"w": "办",
+"p": "bàn",
+"en": "to take care of (a matter); to deal with (a task, procedure etc); to organize (an event); to establish; to set up; to manage; to run (an enterprise)",
+"lv": 3
+},
+{
+"w": "办法",
+"p": "bànfǎ",
+"en": "way of handling sth; means; measure; (practical) solution to a problem",
+"lv": 3
+},
+{
+"w": "办公室",
+"p": "bàngōngshì",
+"en": "office; business premises",
+"lv": 3
+},
+{
+"w": "半天",
+"p": "bàntiān",
+"en": "half of the day; a long time",
+"lv": 3
+},
+{
+"w": "帮助",
+"p": "bāngzhù",
+"en": "assistance; aid; to help; to assist",
+"lv": 3
+},
+{
+"w": "饱",
+"p": "bǎo",
+"en": "to eat till full; satisfied",
+"lv": 3
+},
+{
+"w": "报纸",
+"p": "bàozhǐ",
+"en": "newspaper; newsprint",
+"lv": 3
+},
+{
+"w": "北",
+"p": "běi",
+"en": "north; (classical) to be defeated",
+"lv": 3
+},
+{
+"w": "北方",
+"p": "běifāng",
+"en": "north; the northern part a country",
+"lv": 3
+},
+{
+"w": "被",
+"p": "bèi",
+"en": "quilt; to cover (with)",
+"lv": 3
+},
+{
+"w": "笔记",
+"p": "bǐjì",
+"en": "to take down (in writing); notes",
+"lv": 3
+},
+{
+"w": "比较",
+"p": "bǐjiào",
+"en": "to compare; to contrast",
+"lv": 3
+},
+{
+"w": "笔记本",
+"p": "bǐjìběn",
+"en": "notebook (stationery); (computing) laptop; notebook (abbr. for 笔记本电脑)",
+"lv": 3
+},
+{
+"w": "比如",
+"p": "bǐrú",
+"en": "for example; for instance; such as",
+"lv": 3
+},
+{
+"w": "比赛",
+"p": "bǐsài",
+"en": "competition (sports etc); match",
+"lv": 3
+},
+{
+"w": "必须",
+"p": "bìxū",
+"en": "to have to; must",
+"lv": 3
+},
+{
+"w": "变",
+"p": "biàn",
+"en": "to change; to become different",
+"lv": 3
+},
+{
+"w": "遍",
+"p": "biàn",
+"en": "biàn / 徧 biàn / 遍",
+"lv": 3
+},
+{
+"w": "变成",
+"p": "biànchéng",
+"en": "to change into; to turn into",
+"lv": 3
+},
+{
+"w": "变化",
+"p": "biànhuà",
+"en": "(intransitive) to change; to vary; change; variation",
+"lv": 3
+},
+{
+"w": "表演",
+"p": "biǎoyǎn",
+"en": "play; show",
+"lv": 3
+},
+{
+"w": "别的",
+"p": "biéde",
+"en": "else; other",
+"lv": 3
+},
+{
+"w": "别人",
+"p": "biérén",
+"en": "other people; others; other person",
+"lv": 3
+},
+{
+"w": "宾馆",
+"p": "bīnguǎn",
+"en": "guesthouse; lodge",
+"lv": 3
+},
+{
+"w": "冰",
+"p": "bīng",
+"en": "bīng / 冰 bīng / 氷",
+"lv": 3
+},
+{
+"w": "冰激凌",
+"p": "bīngjīlíng",
+"en": "ice cream",
+"lv": 3
+},
+{
+"w": "冰箱",
+"p": "bīngxiāng",
+"en": "refrigerator; (old) icebox",
+"lv": 3
+},
+{
+"w": "病人",
+"p": "bìngrén",
+"en": "sick person; patient",
+"lv": 3
+},
+{
+"w": "不但",
+"p": "búdàn",
+"en": "not only (... but also...)",
+"lv": 3
+},
+{
+"w": "不见",
+"p": "bújiàn",
+"en": "not to see; not to meet",
+"lv": 3
+},
+{
+"w": "不用",
+"p": "búyòng",
+"en": "need not",
+"lv": 3
+},
+{
+"w": "不同",
+"p": "bù tóng",
+"en": "different; distinct",
+"lv": 3
+},
+{
+"w": "不久",
+"p": "bùjiǔ",
+"en": "not long (after); before too long",
+"lv": 3
+},
+{
+"w": "不行",
+"p": "bùxíng",
+"en": "won't do; be out of the question",
+"lv": 3
+},
+{
+"w": "才",
+"p": "cái",
+"en": "cái / 才 cái / 纔",
+"lv": 3
+},
+{
+"w": "菜单",
+"p": "càidān",
+"en": "menu",
+"lv": 3
+},
+{
+"w": "参加",
+"p": "cānjiā",
+"en": "to participate; to take part",
+"lv": 3
+},
+{
+"w": "草",
+"p": "cǎo",
+"en": "cǎo / 艸 cǎo / 草",
+"lv": 3
+},
+{
+"w": "草地",
+"p": "cǎodì",
+"en": "lawn; meadow",
+"lv": 3
+},
+{
+"w": "层",
+"p": "céng",
+"en": "to pile on top of one another; layer; stratum",
+"lv": 3
+},
+{
+"w": "查",
+"p": "chá",
+"en": "to research; to check",
+"lv": 3
+},
+{
+"w": "差",
+"p": "chà",
+"en": "different; wrong; mistaken",
+"lv": 3
+},
+{
+"w": "差不多",
+"p": "chàbuduō",
+"en": "almost; nearly",
+"lv": 3
+},
+{
+"w": "尝",
+"p": "cháng",
+"en": "cháng / 嘗 cháng / 嚐 cháng / 甞",
+"lv": 3
+},
+{
+"w": "常",
+"p": "cháng",
+"en": "always; ever",
+"lv": 3
+},
+{
+"w": "常见",
+"p": "cháng jiàn",
+"en": "commonly seen; common",
+"lv": 3
+},
+{
+"w": "常用",
+"p": "cháng yòng",
+"en": "in common usage",
+"lv": 3
+},
+{
+"w": "常常",
+"p": "chángcháng",
+"en": "frequently; often",
+"lv": 3
+},
+{
+"w": "衬衫",
+"p": "chènshān",
+"en": "shirt; blouse",
+"lv": 3
+},
+{
+"w": "成绩",
+"p": "chéngjì",
+"en": "achievement; performance records",
+"lv": 3
+},
+{
+"w": "城市",
+"p": "chéngshì",
+"en": "city; town",
+"lv": 3
+},
+{
+"w": "迟到",
+"p": "chídào",
+"en": "to arrive late",
+"lv": 3
+},
+{
+"w": "出发",
+"p": "chūfā",
+"en": "to set off; to start (on a journey)",
+"lv": 3
+},
+{
+"w": "出生",
+"p": "chūshēng",
+"en": "to be born",
+"lv": 3
+},
+{
+"w": "出院",
+"p": "chūyuàn",
+"en": "to leave hospital; to be discharged from hospital",
+"lv": 3
+},
+{
+"w": "初中",
+"p": "chūzhōng",
+"en": "junior high school (abbr. for 初级中学)",
+"lv": 3
+},
+{
+"w": "除了",
+"p": "chúle",
+"en": "apart from; besides; in addition to (used to exclude, as in 除了他，除了他，谁也没来 \"apart from him, nobody came\", or to include, as in",
+"lv": 3
+},
+{
+"w": "船",
+"p": "chuán",
+"en": "chuán / 舩 chuán / 船",
+"lv": 3
+},
+{
+"w": "春天",
+"p": "chūntiān",
+"en": "spring (season)",
+"lv": 3
+},
+{
+"w": "词典",
+"p": "cídiǎn",
+"en": "dictionary",
+"lv": 3
+},
+{
+"w": "聪明",
+"p": "cōngmíng",
+"en": "intelligent; clever; bright; acute (of sight and hearing)",
+"lv": 3
+},
+{
+"w": "打扫",
+"p": "dǎsǎo",
+"en": "to clean; to sweep",
+"lv": 3
+},
+{
+"w": "打算",
+"p": "dǎsuàn",
+"en": "to plan; to intend",
+"lv": 3
+},
+{
+"w": "大概",
+"p": "dàgài",
+"en": "roughly; probably",
+"lv": 3
+},
+{
+"w": "大人",
+"p": "dàren",
+"en": "adult; grownup",
+"lv": 3
+},
+{
+"w": "大小",
+"p": "dàxiǎo",
+"en": "large and small; size",
+"lv": 3
+},
+{
+"w": "大熊猫",
+"p": "dàxióngmāo",
+"en": "giant panda (Ailuropoda melanoleuca)",
+"lv": 3
+},
+{
+"w": "大衣",
+"p": "dàyī",
+"en": "overcoat; topcoat",
+"lv": 3
+},
+{
+"w": "带",
+"p": "dài",
+"en": "band; belt",
+"lv": 3
+},
+{
+"w": "担心",
+"p": "dānxīn",
+"en": "anxious; worried",
+"lv": 3
+},
+{
+"w": "蛋糕",
+"p": "dàngāo",
+"en": "cake",
+"lv": 3
+},
+{
+"w": "当然",
+"p": "dāngrán",
+"en": "only natural; as it should be",
+"lv": 3
+},
+{
+"w": "到处",
+"p": "dàochù",
+"en": "everywhere",
+"lv": 3
+},
+{
+"w": "得",
+"p": "dé",
+"en": "to obtain; to get",
+"lv": 3
+},
+{
+"w": "得到",
+"p": "dédào",
+"en": "to get; to obtain; to receive",
+"lv": 3
+},
+{
+"w": "得分",
+"p": "défēn",
+"en": "to score a point (in a competition, test etc); score; rating; grade",
+"lv": 3
+},
+{
+"w": "的话",
+"p": "dehuà",
+"en": "if (coming after a conditional clause)",
+"lv": 3
+},
+{
+"w": "得",
+"p": "děi",
+"en": "to have to; must",
+"lv": 3
+},
+{
+"w": "灯",
+"p": "dēng",
+"en": "lamp; light",
+"lv": 3
+},
+{
+"w": "地",
+"p": "dì",
+"en": "earth; ground",
+"lv": 3
+},
+{
+"w": "地点",
+"p": "dìdiǎn",
+"en": "place; site",
+"lv": 3
+},
+{
+"w": "地方",
+"p": "dìfang",
+"en": "place; location; area; space; territory; aspect; part",
+"lv": 3
+},
+{
+"w": "地图",
+"p": "dìtú",
+"en": "map",
+"lv": 3
+},
+{
+"w": "电",
+"p": "diàn",
+"en": "lightning; electricity",
+"lv": 3
+},
+{
+"w": "电梯",
+"p": "diàntī",
+"en": "elevator; escalator",
+"lv": 3
+},
+{
+"w": "电子书",
+"p": "diànzǐshū",
+"en": "electronic book; e-book",
+"lv": 3
+},
+{
+"w": "丢",
+"p": "diū",
+"en": "to lose; to put aside",
+"lv": 3
+},
+{
+"w": "东",
+"p": "dōng",
+"en": "east; host (i.e. sitting on east side of guest)",
+"lv": 3
+},
+{
+"w": "东北",
+"p": "dōngběi",
+"en": "northeast",
+"lv": 3
+},
+{
+"w": "东方",
+"p": "dōngfāng",
+"en": "east",
+"lv": 3
+},
+{
+"w": "东南",
+"p": "dōngnán",
+"en": "southeast",
+"lv": 3
+},
+{
+"w": "冬天",
+"p": "dōngtiān",
+"en": "winter",
+"lv": 3
+},
+{
+"w": "懂得",
+"p": "dǒngde",
+"en": "to understand; to know; to comprehend",
+"lv": 3
+},
+{
+"w": "动物",
+"p": "dòngwù",
+"en": "animal",
+"lv": 3
+},
+{
+"w": "动物园",
+"p": "dòngwùyuán",
+"en": "zoo",
+"lv": 3
+},
+{
+"w": "短",
+"p": "duǎn",
+"en": "short; brief",
+"lv": 3
+},
+{
+"w": "短裤",
+"p": "duǎnkù",
+"en": "short pants; shorts",
+"lv": 3
+},
+{
+"w": "段",
+"p": "duàn",
+"en": "paragraph; section",
+"lv": 3
+},
+{
+"w": "锻炼",
+"p": "duànliàn",
+"en": "to toughen; to temper",
+"lv": 3
+},
+{
+"w": "对话",
+"p": "duìhuà",
+"en": "to talk (with sb); dialogue; conversation",
+"lv": 3
+},
+{
+"w": "饿",
+"p": "è",
+"en": "hungry; to starve (sb)",
+"lv": 3
+},
+{
+"w": "而且",
+"p": "érqiě",
+"en": "(not only...) but also; moreover; in addition; furthermore",
+"lv": 3
+},
+{
+"w": "耳朵",
+"p": "ěrduo",
+"en": "ear; handle (on a cup)",
+"lv": 3
+},
+{
+"w": "耳机",
+"p": "ěrjī",
+"en": "headphones; earphones",
+"lv": 3
+},
+{
+"w": "发",
+"p": "fā",
+"en": "to send out; to show (one's feeling)",
+"lv": 3
+},
+{
+"w": "发烧",
+"p": "fāshāo",
+"en": "to have a high temperature (from illness); to have a fever; (fig.) to be fascinated with; to obsess over",
+"lv": 3
+},
+{
+"w": "发生",
+"p": "fāshēng",
+"en": "to happen; to occur; to take place; to break out",
+"lv": 3
+},
+{
+"w": "发现",
+"p": "fāxiàn",
+"en": "to notice; to become aware of; to discover; to find; to detect",
+"lv": 3
+},
+{
+"w": "发展",
+"p": "fāzhǎn",
+"en": "development; growth",
+"lv": 3
+},
+{
+"w": "方便",
+"p": "fāngbiàn",
+"en": "convenient; suitable; to facilitate; to make things easy",
+"lv": 3
+},
+{
+"w": "方便面",
+"p": "fāngbiànmiàn",
+"en": "instant noodles",
+"lv": 3
+},
+{
+"w": "方法",
+"p": "fāngfǎ",
+"en": "method; way; technique; procedure",
+"lv": 3
+},
+{
+"w": "方向",
+"p": "fāngxiàng",
+"en": "direction; orientation",
+"lv": 3
+},
+{
+"w": "房子",
+"p": "fángzi",
+"en": "house; building (single- or two-story)",
+"lv": 3
+},
+{
+"w": "放",
+"p": "fàng",
+"en": "to put; to place",
+"lv": 3
+},
+{
+"w": "放假",
+"p": "fàngjià",
+"en": "to have a holiday or vacation",
+"lv": 3
+},
+{
+"w": "放心",
+"p": "fàngxīn",
+"en": "to feel relieved; to feel reassured",
+"lv": 3
+},
+{
+"w": "放学",
+"p": "fàngxué",
+"en": "to dismiss students at the end of the school day",
+"lv": 3
+},
+{
+"w": "分开",
+"p": "fēnkāi",
+"en": "to separate; to part",
+"lv": 3
+},
+{
+"w": "风",
+"p": "fēng",
+"en": "wind; news",
+"lv": 3
+},
+{
+"w": "封",
+"p": "fēng",
+"en": "to confer; to grant",
+"lv": 3
+},
+{
+"w": "夫妻",
+"p": "fūqī",
+"en": "husband and wife; married couple",
+"lv": 3
+},
+{
+"w": "服务",
+"p": "fúwù",
+"en": "to serve; service",
+"lv": 3
+},
+{
+"w": "附近",
+"p": "fùjìn",
+"en": "nearby; neighboring; (in the) vicinity (of); neighborhood",
+"lv": 3
+},
+{
+"w": "复习",
+"p": "fùxí",
+"en": "fù xí / 復習 fù xí / 複習",
+"lv": 3
+},
+{
+"w": "该",
+"p": "gāi",
+"en": "should; ought to",
+"lv": 3
+},
+{
+"w": "干净",
+"p": "gānjìng",
+"en": "clean; neat",
+"lv": 3
+},
+{
+"w": "感兴趣",
+"p": "gǎn xìngqù",
+"en": "to be interested (in sth)",
+"lv": 3
+},
+{
+"w": "感到",
+"p": "gǎndào",
+"en": "to feel; to sense; to perceive",
+"lv": 3
+},
+{
+"w": "感冒",
+"p": "gǎnmào",
+"en": "to catch cold; (common) cold",
+"lv": 3
+},
+{
+"w": "干",
+"p": "gàn",
+"en": "tree trunk; main part of sth",
+"lv": 3
+},
+{
+"w": "刚",
+"p": "gāng",
+"en": "(literary) hard; firm; strong; exactly; precisely",
+"lv": 3
+},
+{
+"w": "刚才",
+"p": "gāngcái",
+"en": "gāng cái / 剛才 gāng cái / 剛纔",
+"lv": 3
+},
+{
+"w": "刚刚",
+"p": "gānggāng",
+"en": "just recently; just a moment ago",
+"lv": 3
+},
+{
+"w": "高铁",
+"p": "gāotiě",
+"en": "high speed rail",
+"lv": 3
+},
+{
+"w": "根据",
+"p": "gēnjù",
+"en": "according to; based on",
+"lv": 3
+},
+{
+"w": "更",
+"p": "gèng",
+"en": "more; even more",
+"lv": 3
+},
+{
+"w": "公斤",
+"p": "gōngjīn",
+"en": "kilogram (kg)",
+"lv": 3
+},
+{
+"w": "公园",
+"p": "gōngyuán",
+"en": "park (for public recreation)",
+"lv": 3
+},
+{
+"w": "工作日",
+"p": "gōngzuòrì",
+"en": "workday; working day",
+"lv": 3
+},
+{
+"w": "故事",
+"p": "gùshi",
+"en": "narrative; story; tale",
+"lv": 3
+},
+{
+"w": "刮",
+"p": "guā",
+"en": "guā / 刮 guā / 颳",
+"lv": 3
+},
+{
+"w": "关",
+"p": "guān",
+"en": "mountain pass; to close; to shut; to turn off",
+"lv": 3
+},
+{
+"w": "关机",
+"p": "guānjī",
+"en": "to turn off (a machine or device); to finish shooting a film",
+"lv": 3
+},
+{
+"w": "关系",
+"p": "guānxì",
+"en": "guān xi / 關係 guān xi / 關系",
+"lv": 3
+},
+{
+"w": "关心",
+"p": "guānxīn",
+"en": "to be concerned about; to care about",
+"lv": 3
+},
+{
+"w": "关于",
+"p": "guānyú",
+"en": "pertaining to; concerning",
+"lv": 3
+},
+{
+"w": "关注",
+"p": "guānzhù",
+"en": "to pay attention to; to follow sth closely; to follow (on social media); concern; interest; attention",
+"lv": 3
+},
+{
+"w": "国家",
+"p": "guójiā",
+"en": "country; nation; state",
+"lv": 3
+},
+{
+"w": "过节",
+"p": "guòjié",
+"en": "to celebrate a festival; after the celebrations (i.e. once the festival is over)",
+"lv": 3
+},
+{
+"w": "过去",
+"p": "guòqù",
+"en": "(in the) past; former; previous; to go over; to pass by",
+"lv": 3
+},
+{
+"w": "海",
+"p": "hǎi",
+"en": "ocean; sea",
+"lv": 3
+},
+{
+"w": "害怕",
+"p": "hàipà",
+"en": "to be afraid; to be scared",
+"lv": 3
+},
+{
+"w": "好多",
+"p": "hǎoduō",
+"en": "many; quite a lot",
+"lv": 3
+},
+{
+"w": "好久",
+"p": "hǎojiǔ",
+"en": "(coll.) for a long time",
+"lv": 3
+},
+{
+"w": "好像",
+"p": "hǎoxiàng",
+"en": "as if; to seem like",
+"lv": 3
+},
+{
+"w": "号码",
+"p": "hàomǎ",
+"en": "number",
+"lv": 3
+},
+{
+"w": "河",
+"p": "hé",
+"en": "river; (bound form) the Yellow River",
+"lv": 3
+},
+{
+"w": "合适",
+"p": "héshì",
+"en": "suitable; fitting; appropriate",
+"lv": 3
+},
+{
+"w": "黑板",
+"p": "hēibǎn",
+"en": "blackboard",
+"lv": 3
+},
+{
+"w": "红绿灯",
+"p": "hóng-lǜdēng",
+"en": "traffic light; traffic signal",
+"lv": 3
+},
+{
+"w": "后来",
+"p": "hòulái",
+"en": "afterwards; later; newly arrived",
+"lv": 3
+},
+{
+"w": "后年",
+"p": "hòunián",
+"en": "the year after next",
+"lv": 3
+},
+{
+"w": "后天",
+"p": "hòutiān",
+"en": "the day after tomorrow; life after birth (the period in which one develops through experiences, contrasted with 先天)",
+"lv": 3
+},
+{
+"w": "护照",
+"p": "hùzhào",
+"en": "passport",
+"lv": 3
+},
+{
+"w": "花园",
+"p": "huāyuán",
+"en": "garden (for flowers, ornamental plants etc); (landscaped) park; yard with decorative plants",
+"lv": 3
+},
+{
+"w": "画家",
+"p": "huàjiā",
+"en": "painter",
+"lv": 3
+},
+{
+"w": "欢迎",
+"p": "huānyíng",
+"en": "to welcome; welcome",
+"lv": 3
+},
+{
+"w": "还",
+"p": "huán",
+"en": "to pay back; to return",
+"lv": 3
+},
+{
+"w": "环境",
+"p": "huánjìng",
+"en": "environment; circumstances",
+"lv": 3
+},
+{
+"w": "换",
+"p": "huàn",
+"en": "to exchange; to change (clothes etc)",
+"lv": 3
+},
+{
+"w": "黄色",
+"p": "huángsè",
+"en": "yellow; vulgar; lewd; pornographic",
+"lv": 3
+},
+{
+"w": "回答",
+"p": "huídá",
+"en": "to reply; to answer; reply; answer",
+"lv": 3
+},
+{
+"w": "会",
+"p": "huì",
+"en": "can; to have the skill; to know how to; to be likely to; to be sure to",
+"lv": 3
+},
+{
+"w": "会议",
+"p": "huìyì",
+"en": "meeting; conference",
+"lv": 3
+},
+{
+"w": "或",
+"p": "huò",
+"en": "maybe; perhaps",
+"lv": 3
+},
+{
+"w": "或者",
+"p": "huòzhě",
+"en": "or; possibly; maybe; perhaps",
+"lv": 3
+},
+{
+"w": "鸡",
+"p": "jī",
+"en": "jī / 雞 jī / 鷄",
+"lv": 3
+},
+{
+"w": "几乎",
+"p": "jīhū",
+"en": "almost; nearly; practically",
+"lv": 3
+},
+{
+"w": "机会",
+"p": "jīhuì",
+"en": "opportunity; chance",
+"lv": 3
+},
+{
+"w": "极",
+"p": "jí",
+"en": "extremely; pole (geography, physics)",
+"lv": 3
+},
+{
+"w": "急",
+"p": "jí",
+"en": "urgent; pressing",
+"lv": 3
+},
+{
+"w": "记",
+"p": "jì",
+"en": "to record; to note",
+"lv": 3
+},
+{
+"w": "季",
+"p": "jì",
+"en": "season; the last month of a season",
+"lv": 3
+},
+{
+"w": "季节",
+"p": "jìjié",
+"en": "time; season",
+"lv": 3
+},
+{
+"w": "加",
+"p": "jiā",
+"en": "to add; (math.) plus",
+"lv": 3
+},
+{
+"w": "假期",
+"p": "jiàqī",
+"en": "vacation",
+"lv": 3
+},
+{
+"w": "坚持",
+"p": "jiānchí",
+"en": "to persevere with; to persist in",
+"lv": 3
+},
+{
+"w": "检查",
+"p": "jiǎnchá",
+"en": "inspection; to examine",
+"lv": 3
+},
+{
+"w": "简单",
+"p": "jiǎndān",
+"en": "simple; not complicated",
+"lv": 3
+},
+{
+"w": "检票",
+"p": "jiǎnpiào",
+"en": "to inspect a ticket; to examine a ballot",
+"lv": 3
+},
+{
+"w": "健康",
+"p": "jiànkāng",
+"en": "health; healthy",
+"lv": 3
+},
+{
+"w": "见面",
+"p": "jiànmiàn",
+"en": "to meet; to see each other",
+"lv": 3
+},
+{
+"w": "讲",
+"p": "jiǎng",
+"en": "to speak; to explain",
+"lv": 3
+},
+{
+"w": "角",
+"p": "jiǎo",
+"en": "angle; corner",
+"lv": 3
+},
+{
+"w": "脚",
+"p": "jiǎo",
+"en": "foot; leg (of an animal or an object)",
+"lv": 3
+},
+{
+"w": "接",
+"p": "jiē",
+"en": "to receive; to answer (the phone)",
+"lv": 3
+},
+{
+"w": "街",
+"p": "jiē",
+"en": "street",
+"lv": 3
+},
+{
+"w": "节",
+"p": "jié",
+"en": "joint; node; (bound form) section; segment",
+"lv": 3
+},
+{
+"w": "结婚",
+"p": "jiéhūn",
+"en": "to marry; to get married",
+"lv": 3
+},
+{
+"w": "节目",
+"p": "jiémù",
+"en": "(TV or radio) program; show; item; act; segment; number (on the program of a concert, variety show or cultural event)",
+"lv": 3
+},
+{
+"w": "节日",
+"p": "jiérì",
+"en": "holiday; festival",
+"lv": 3
+},
+{
+"w": "结束",
+"p": "jiéshù",
+"en": "to end; to finish; to conclude",
+"lv": 3
+},
+{
+"w": "解决",
+"p": "jiějué",
+"en": "to solve; to resolve; to settle (a problem); to eliminate; to wipe out (an enemy, bandits etc)",
+"lv": 3
+},
+{
+"w": "姐妹",
+"p": "jiěmèi",
+"en": "sisters; siblings",
+"lv": 3
+},
+{
+"w": "借",
+"p": "jiè",
+"en": "jiè / 借 jiè / 藉",
+"lv": 3
+},
+{
+"w": "斤",
+"p": "jīn",
+"en": "catty; (PRC) weight equal to 500 g",
+"lv": 3
+},
+{
+"w": "经过",
+"p": "jīngguò",
+"en": "to pass; to go through",
+"lv": 3
+},
+{
+"w": "经理",
+"p": "jīnglǐ",
+"en": "manager; director",
+"lv": 3
+},
+{
+"w": "久",
+"p": "jiǔ",
+"en": "(of a period of time) long",
+"lv": 3
+},
+{
+"w": "酒",
+"p": "jiǔ",
+"en": "wine (esp. rice wine); liquor",
+"lv": 3
+},
+{
+"w": "旧",
+"p": "jiù",
+"en": "old; opposite: new 新",
+"lv": 3
+},
+{
+"w": "句",
+"p": "jù",
+"en": "sentence; clause",
+"lv": 3
+},
+{
+"w": "句子",
+"p": "jùzi",
+"en": "sentence",
+"lv": 3
+},
+{
+"w": "决定",
+"p": "juédìng",
+"en": "to decide; to determine; to make up one's mind; decision",
+"lv": 3
+},
+{
+"w": "卡",
+"p": "kǎ",
+"en": "to stop; to block",
+"lv": 3
+},
+{
+"w": "开花",
+"p": "kāihuā",
+"en": "to bloom; to blossom; to flower; (fig.) to burst; to split open",
+"lv": 3
+},
+{
+"w": "开会",
+"p": "kāihuì",
+"en": "to hold a meeting; to attend a meeting",
+"lv": 3
+},
+{
+"w": "开机",
+"p": "kāijī",
+"en": "to start an engine; to boot up (a computer)",
+"lv": 3
+},
+{
+"w": "开心",
+"p": "kāixīn",
+"en": "to feel happy; to rejoice",
+"lv": 3
+},
+{
+"w": "看来",
+"p": "kànlái",
+"en": "apparently; it seems that",
+"lv": 3
+},
+{
+"w": "可",
+"p": "kě",
+"en": "(prefix) can; may; able to; -able; to approve; to permit",
+"lv": 3
+},
+{
+"w": "渴",
+"p": "kě",
+"en": "thirsty",
+"lv": 3
+},
+{
+"w": "可爱",
+"p": "kě’ài",
+"en": "adorable; cute",
+"lv": 3
+},
+{
+"w": "可是",
+"p": "kěshì",
+"en": "but; however; (used for emphasis) indeed",
+"lv": 3
+},
+{
+"w": "刻",
+"p": "kè",
+"en": "quarter (hour); moment",
+"lv": 3
+},
+{
+"w": "课本",
+"p": "kèběn",
+"en": "textbook",
+"lv": 3
+},
+{
+"w": "客人",
+"p": "kèrén",
+"en": "visitor; guest",
+"lv": 3
+},
+{
+"w": "课文",
+"p": "kèwén",
+"en": "text",
+"lv": 3
+},
+{
+"w": "空调",
+"p": "kōngtiáo",
+"en": "air conditioning; air conditioner (including units that have a heating mode)",
+"lv": 3
+},
+{
+"w": "哭",
+"p": "kū",
+"en": "to cry; to weep",
+"lv": 3
+},
+{
+"w": "筷子",
+"p": "kuàizi",
+"en": "chopsticks",
+"lv": 3
+},
+{
+"w": "矿泉水",
+"p": "kuàngquánshuǐ",
+"en": "mineral water",
+"lv": 3
+},
+{
+"w": "来自",
+"p": "láizì",
+"en": "to come from (a place); From: (in email header)",
+"lv": 3
+},
+{
+"w": "蓝",
+"p": "lán",
+"en": "blue; indigo plant",
+"lv": 3
+},
+{
+"w": "老",
+"p": "lǎo",
+"en": "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity; old (of people)",
+"lv": 3
+},
+{
+"w": "老人",
+"p": "lǎorén",
+"en": "old man or woman; the elderly",
+"lv": 3
+},
+{
+"w": "离开",
+"p": "líkāi",
+"en": "to depart; to leave",
+"lv": 3
+},
+{
+"w": "礼物",
+"p": "lǐwù",
+"en": "gift; present",
+"lv": 3
+},
+{
+"w": "历史",
+"p": "lìshǐ",
+"en": "history",
+"lv": 3
+},
+{
+"w": "脸",
+"p": "liǎn",
+"en": "face",
+"lv": 3
+},
+{
+"w": "练",
+"p": "liàn",
+"en": "to practice; to train",
+"lv": 3
+},
+{
+"w": "练习",
+"p": "liànxí",
+"en": "to practice; exercise",
+"lv": 3
+},
+{
+"w": "凉快",
+"p": "liángkuai",
+"en": "pleasantly cool (weather etc); to cool oneself; to cool off",
+"lv": 3
+},
+{
+"w": "辆",
+"p": "liàng",
+"en": "classifier for vehicles",
+"lv": 3
+},
+{
+"w": "聊",
+"p": "liáo",
+"en": "(coll.) to chat; (literary) temporarily; for a while",
+"lv": 3
+},
+{
+"w": "聊天儿",
+"p": "liáotiānr",
+"en": "erhua variant of 聊天",
+"lv": 3
+},
+{
+"w": "了解",
+"p": "liǎojiě",
+"en": "liǎo jiě / 了解 liǎo jiě / 瞭解",
+"lv": 3
+},
+{
+"w": "邻居",
+"p": "línjū",
+"en": "neighbor",
+"lv": 3
+},
+{
+"w": "留学",
+"p": "liúxué",
+"en": "to study abroad",
+"lv": 3
+},
+{
+"w": "留学生",
+"p": "liúxuéshēng",
+"en": "student studying abroad; returned student; foreign student; international student",
+"lv": 3
+},
+{
+"w": "楼梯",
+"p": "lóutī",
+"en": "stair; staircase",
+"lv": 3
+},
+{
+"w": "路边",
+"p": "lùbiān",
+"en": "curb; roadside; wayside",
+"lv": 3
+},
+{
+"w": "路口",
+"p": "lùkǒu",
+"en": "crossing; intersection (of roads)",
+"lv": 3
+},
+{
+"w": "马",
+"p": "mǎ",
+"en": "horse; horse or cavalry piece in Chinese chess",
+"lv": 3
+},
+{
+"w": "马路",
+"p": "mǎlù",
+"en": "street; road",
+"lv": 3
+},
+{
+"w": "马上",
+"p": "mǎshàng",
+"en": "at once; right away",
+"lv": 3
+},
+{
+"w": "满意",
+"p": "mǎnyì",
+"en": "satisfied; pleased",
+"lv": 3
+},
+{
+"w": "毛",
+"p": "máo",
+"en": "hair; feather",
+"lv": 3
+},
+{
+"w": "米",
+"p": "mǐ",
+"en": "uncooked rice; meter (unit of length)",
+"lv": 3
+},
+{
+"w": "面前",
+"p": "miànqián",
+"en": "in front of; facing",
+"lv": 3
+},
+{
+"w": "明白",
+"p": "míngbai",
+"en": "clear; obvious; unequivocal; sensible; reasonable",
+"lv": 3
+},
+{
+"w": "名单",
+"p": "míngdān",
+"en": "list of names",
+"lv": 3
+},
+{
+"w": "名人",
+"p": "míngrén",
+"en": "personage; celebrity",
+"lv": 3
+},
+{
+"w": "南",
+"p": "nán",
+"en": "south",
+"lv": 3
+},
+{
+"w": "难",
+"p": "nán",
+"en": "difficult (to...); problem",
+"lv": 3
+},
+{
+"w": "南方",
+"p": "nánfāng",
+"en": "south; southern direction; (in China) southern regions, often referring to areas south of the Yangtze River",
+"lv": 3
+},
+{
+"w": "难过",
+"p": "nánguò",
+"en": "to feel sad; to feel unwell",
+"lv": 3
+},
+{
+"w": "难看",
+"p": "nánkàn",
+"en": "ugly; unsightly",
+"lv": 3
+},
+{
+"w": "男人",
+"p": "nánrén",
+"en": "a man; a male",
+"lv": 3
+},
+{
+"w": "男生",
+"p": "nánshēng",
+"en": "schoolboy; male student",
+"lv": 3
+},
+{
+"w": "难题",
+"p": "nántí",
+"en": "difficult problem",
+"lv": 3
+},
+{
+"w": "难听",
+"p": "nántīng",
+"en": "unpleasant to hear; coarse",
+"lv": 3
+},
+{
+"w": "年级",
+"p": "niánjí",
+"en": "grade; year (in school, college etc)",
+"lv": 3
+},
+{
+"w": "年轻",
+"p": "niánqīng",
+"en": "young",
+"lv": 3
+},
+{
+"w": "牛",
+"p": "niú",
+"en": "ox; cow",
+"lv": 3
+},
+{
+"w": "努力",
+"p": "nǔlì",
+"en": "to make an effort; to try hard; to strive; hard-working; conscientious",
+"lv": 3
+},
+{
+"w": "女人",
+"p": "nǚrén",
+"en": "woman",
+"lv": 3
+},
+{
+"w": "女生",
+"p": "nǚshēng",
+"en": "schoolgirl; female student",
+"lv": 3
+},
+{
+"w": "爬",
+"p": "pá",
+"en": "to crawl; to climb",
+"lv": 3
+},
+{
+"w": "怕",
+"p": "pà",
+"en": "to be afraid; to fear",
+"lv": 3
+},
+{
+"w": "拍照",
+"p": "pāizhào",
+"en": "to take a picture",
+"lv": 3
+},
+{
+"w": "盘子",
+"p": "pánzi",
+"en": "tray; plate",
+"lv": 3
+},
+{
+"w": "胖",
+"p": "pàng",
+"en": "fat; plump",
+"lv": 3
+},
+{
+"w": "啤酒",
+"p": "píjiǔ",
+"en": "beer (loanword)",
+"lv": 3
+},
+{
+"w": "平时",
+"p": "píngshí",
+"en": "ordinarily; in normal times",
+"lv": 3
+},
+{
+"w": "瓶子",
+"p": "píngzi",
+"en": "bottle",
+"lv": 3
+},
+{
+"w": "骑",
+"p": "qí",
+"en": "to sit astride; to ride (a horse, bike etc)",
+"lv": 3
+},
+{
+"w": "奇怪",
+"p": "qíguài",
+"en": "strange; odd",
+"lv": 3
+},
+{
+"w": "其实",
+"p": "qíshí",
+"en": "actually; in fact; really",
+"lv": 3
+},
+{
+"w": "其他",
+"p": "qítā",
+"en": "other; (sth or sb) else",
+"lv": 3
+},
+{
+"w": "起",
+"p": "qǐ",
+"en": "to rise; to raise",
+"lv": 3
+},
+{
+"w": "起飞",
+"p": "qǐfēi",
+"en": "(of an aircraft or rocket) to take off; to lift off; (fig.) (of an enterprise etc) to start to develop rapidly",
+"lv": 3
+},
+{
+"w": "汽车",
+"p": "qìchē",
+"en": "car; automobile",
+"lv": 3
+},
+{
+"w": "铅笔",
+"p": "qiānbǐ",
+"en": "(lead) pencil",
+"lv": 3
+},
+{
+"w": "前年",
+"p": "qiánnián",
+"en": "the year before last",
+"lv": 3
+},
+{
+"w": "前天",
+"p": "qiántiān",
+"en": "the day before yesterday",
+"lv": 3
+},
+{
+"w": "清楚",
+"p": "qīngchu",
+"en": "clear; distinct",
+"lv": 3
+},
+{
+"w": "请假",
+"p": "qǐngjià",
+"en": "to request leave of absence",
+"lv": 3
+},
+{
+"w": "请客",
+"p": "qǐngkè",
+"en": "to give a dinner party; to entertain guests",
+"lv": 3
+},
+{
+"w": "秋天",
+"p": "qiūtiān",
+"en": "autumn",
+"lv": 3
+},
+{
+"w": "球场",
+"p": "qiúchǎng",
+"en": "stadium; sports ground",
+"lv": 3
+},
+{
+"w": "裙子",
+"p": "qúnzi",
+"en": "skirt",
+"lv": 3
+},
+{
+"w": "然后",
+"p": "ránhòu",
+"en": "then; after that; afterwards",
+"lv": 3
+},
+{
+"w": "热情",
+"p": "rèqíng",
+"en": "cordial; enthusiastic",
+"lv": 3
+},
+{
+"w": "认得",
+"p": "rènde",
+"en": "to recognize; to remember sth (or sb) on seeing it",
+"lv": 3
+},
+{
+"w": "认为",
+"p": "rènwéi",
+"en": "to believe; to think; to consider; to feel",
+"lv": 3
+},
+{
+"w": "认真",
+"p": "rènzhēn",
+"en": "conscientious; earnest",
+"lv": 3
+},
+{
+"w": "容易",
+"p": "róngyì",
+"en": "easy; straightforward; likely; liable to; apt to",
+"lv": 3
+},
+{
+"w": "如果",
+"p": "rúguǒ",
+"en": "if; in case; in the event that",
+"lv": 3
+},
+{
+"w": "伞",
+"p": "sǎn",
+"en": "sǎn / 傘 sǎn / 繖",
+"lv": 3
+},
+{
+"w": "扫",
+"p": "sǎo",
+"en": "to sweep (with a brush or broom); to sweep away; to wipe out; to get rid of",
+"lv": 3
+},
+{
+"w": "沙发",
+"p": "shāfā",
+"en": "(loanword) sofa; (Internet slang) first reply to a forum post",
+"lv": 3
+},
+{
+"w": "山",
+"p": "shān",
+"en": "mountain; hill; (coll.) small bundle of straw for silkworms to spin cocoons on",
+"lv": 3
+},
+{
+"w": "上衣",
+"p": "shàngyī",
+"en": "jacket; upper outer garment",
+"lv": 3
+},
+{
+"w": "勺子",
+"p": "sháozi",
+"en": "spoon; ladle",
+"lv": 3
+},
+{
+"w": "身边",
+"p": "shēnbiān",
+"en": "at one's side; on hand",
+"lv": 3
+},
+{
+"w": "身高",
+"p": "shēngāo",
+"en": "(a person's) height",
+"lv": 3
+},
+{
+"w": "声",
+"p": "shēng",
+"en": "sound; voice",
+"lv": 3
+},
+{
+"w": "生活",
+"p": "shēnghuó",
+"en": "to live; life",
+"lv": 3
+},
+{
+"w": "生气",
+"p": "shēngqì",
+"en": "to get angry; to be furious; vitality; liveliness",
+"lv": 3
+},
+{
+"w": "声音",
+"p": "shēngyīn",
+"en": "sound; voice",
+"lv": 3
+},
+{
+"w": "市",
+"p": "shì",
+"en": "market; city",
+"lv": 3
+},
+{
+"w": "试",
+"p": "shì",
+"en": "to test; to try",
+"lv": 3
+},
+{
+"w": "室",
+"p": "shì",
+"en": "room; work unit",
+"lv": 3
+},
+{
+"w": "世界",
+"p": "shìjiè",
+"en": "world",
+"lv": 3
+},
+{
+"w": "收",
+"p": "shōu",
+"en": "to receive; to accept",
+"lv": 3
+},
+{
+"w": "收到",
+"p": "shōudào",
+"en": "to receive",
+"lv": 3
+},
+{
+"w": "受",
+"p": "shòu",
+"en": "to receive; to accept",
+"lv": 3
+},
+{
+"w": "瘦",
+"p": "shòu",
+"en": "thin; to lose weight",
+"lv": 3
+},
+{
+"w": "受到",
+"p": "shòudào",
+"en": "to receive (praise, an education, punishment etc); to be...ed (praised, educated, punished etc)",
+"lv": 3
+},
+{
+"w": "叔叔",
+"p": "shūshu",
+"en": "father's younger brother; paternal uncle; form of address used by children for a male one generation older",
+"lv": 3
+},
+{
+"w": "树",
+"p": "shù",
+"en": "tree; to cultivate",
+"lv": 3
+},
+{
+"w": "数学",
+"p": "shùxué",
+"en": "mathematics",
+"lv": 3
+},
+{
+"w": "刷",
+"p": "shuā",
+"en": "a brush; to paint; to daub",
+"lv": 3
+},
+{
+"w": "双",
+"p": "shuāng",
+"en": "shuāng / 双 shuāng / 雙",
+"lv": 3
+},
+{
+"w": "水平",
+"p": "shuǐpíng",
+"en": "horizontal; level; a standard; a level (of ability, development etc)",
+"lv": 3
+},
+{
+"w": "司机",
+"p": "sījī",
+"en": "chauffeur; driver",
+"lv": 3
+},
+{
+"w": "四季",
+"p": "sìjì",
+"en": "four seasons, namely: spring 春, summer",
+"lv": 3
+},
+{
+"w": "太阳",
+"p": "tàiyáng",
+"en": "sun; sunlight; sunshine",
+"lv": 3
+},
+{
+"w": "糖",
+"p": "táng",
+"en": "táng / 糖 táng / 餹",
+"lv": 3
+},
+{
+"w": "特别",
+"p": "tèbié",
+"en": "unusual; special; very; especially; particularly",
+"lv": 3
+},
+{
+"w": "提高",
+"p": "tígāo",
+"en": "to raise; to increase",
+"lv": 3
+},
+{
+"w": "体育",
+"p": "tǐyù",
+"en": "sports; physical education",
+"lv": 3
+},
+{
+"w": "体育馆",
+"p": "tǐyùguǎn",
+"en": "gym; gymnasium",
+"lv": 3
+},
+{
+"w": "甜",
+"p": "tián",
+"en": "sweet; (fig.) pleasant; endearing; lovely",
+"lv": 3
+},
+{
+"w": "跳",
+"p": "tiào",
+"en": "to jump; to hop",
+"lv": 3
+},
+{
+"w": "听说",
+"p": "tīngshuō",
+"en": "to hear (sth said); one hears (that)",
+"lv": 3
+},
+{
+"w": "挺",
+"p": "tǐng",
+"en": "straight; erect",
+"lv": 3
+},
+{
+"w": "同事",
+"p": "tóngshì",
+"en": "colleague; co-worker",
+"lv": 3
+},
+{
+"w": "同意",
+"p": "tóngyì",
+"en": "to agree; to consent",
+"lv": 3
+},
+{
+"w": "头发",
+"p": "tóufa",
+"en": "hair (on the head)",
+"lv": 3
+},
+{
+"w": "突然",
+"p": "tūrán",
+"en": "sudden; abrupt; unexpected",
+"lv": 3
+},
+{
+"w": "图书馆",
+"p": "túshūguǎn",
+"en": "library",
+"lv": 3
+},
+{
+"w": "腿",
+"p": "tuǐ",
+"en": "tuǐ / 腿 tuǐ / 骽",
+"lv": 3
+},
+{
+"w": "外地",
+"p": "wàidì",
+"en": "parts of the country other than where one is",
+"lv": 3
+},
+{
+"w": "外卖",
+"p": "wàimài",
+"en": "(of a restaurant) to provide a takeout or home delivery meal; takeout (business)",
+"lv": 3
+},
+{
+"w": "外语",
+"p": "wàiyǔ",
+"en": "foreign language",
+"lv": 3
+},
+{
+"w": "完成",
+"p": "wánchéng",
+"en": "to complete; to accomplish",
+"lv": 3
+},
+{
+"w": "碗",
+"p": "wǎn",
+"en": "wǎn / 㼝 wǎn / 椀 wǎn / 盌 wǎn / 碗",
+"lv": 3
+},
+{
+"w": "晚点",
+"p": "wǎndiǎn",
+"en": "(of trains etc) late; delayed",
+"lv": 3
+},
+{
+"w": "晚会",
+"p": "wǎnhuì",
+"en": "evening party",
+"lv": 3
+},
+{
+"w": "网球",
+"p": "wǎngqiú",
+"en": "tennis; tennis ball",
+"lv": 3
+},
+{
+"w": "网站",
+"p": "wǎngzhàn",
+"en": "website",
+"lv": 3
+},
+{
+"w": "忘记",
+"p": "wàngjì",
+"en": "to forget",
+"lv": 3
+},
+{
+"w": "为",
+"p": "wèi",
+"en": "wèi / 為 wèi / 爲",
+"lv": 3
+},
+{
+"w": "为了",
+"p": "wèile",
+"en": "for; for the purpose of; in order to",
+"lv": 3
+},
+{
+"w": "卫生间",
+"p": "wèishēngjiān",
+"en": "bathroom; toilet",
+"lv": 3
+},
+{
+"w": "文化",
+"p": "wénhuà",
+"en": "culture; civilization",
+"lv": 3
+},
+{
+"w": "屋子",
+"p": "wūzi",
+"en": "house; room",
+"lv": 3
+},
+{
+"w": "西",
+"p": "xī",
+"en": "west",
+"lv": 3
+},
+{
+"w": "西北",
+"p": "xīběi",
+"en": "northwest",
+"lv": 3
+},
+{
+"w": "西方",
+"p": "xīfāng",
+"en": "the West; the Occident",
+"lv": 3
+},
+{
+"w": "西瓜",
+"p": "xīguā",
+"en": "watermelon",
+"lv": 3
+},
+{
+"w": "西南",
+"p": "xīnán",
+"en": "southwest",
+"lv": 3
+},
+{
+"w": "习惯",
+"p": "xíguàn",
+"en": "habit; custom",
+"lv": 3
+},
+{
+"w": "喜爱",
+"p": "xǐ’ài",
+"en": "to like; to love",
+"lv": 3
+},
+{
+"w": "洗衣机",
+"p": "xǐyījī",
+"en": "washing machine; washer",
+"lv": 3
+},
+{
+"w": "洗澡",
+"p": "xǐzǎo",
+"en": "to bathe; to take a shower",
+"lv": 3
+},
+{
+"w": "夏天",
+"p": "xiàtiān",
+"en": "summer",
+"lv": 3
+},
+{
+"w": "先",
+"p": "xiān",
+"en": "beforehand; first; earlier; at first; originally",
+"lv": 3
+},
+{
+"w": "香蕉",
+"p": "xiāngjiāo",
+"en": "banana",
+"lv": 3
+},
+{
+"w": "相信",
+"p": "xiāngxìn",
+"en": "to believe; to be convinced; to accept as true",
+"lv": 3
+},
+{
+"w": "箱子",
+"p": "xiāngzi",
+"en": "suitcase; chest",
+"lv": 3
+},
+{
+"w": "向",
+"p": "xiàng",
+"en": "xiàng / 向 xiàng / 嚮 xiàng / 曏",
+"lv": 3
+},
+{
+"w": "像",
+"p": "xiàng",
+"en": "to resemble; to be like",
+"lv": 3
+},
+{
+"w": "相机",
+"p": "xiàngjī",
+"en": "camera (abbr. for 照相机); at the opportune moment",
+"lv": 3
+},
+{
+"w": "小区",
+"p": "xiǎoqū",
+"en": "housing estate; community; neighborhood; (telecommunications) cell",
+"lv": 3
+},
+{
+"w": "小心",
+"p": "xiǎoxīn",
+"en": "to be careful; to take care",
+"lv": 3
+},
+{
+"w": "校园",
+"p": "xiàoyuán",
+"en": "campus",
+"lv": 3
+},
+{
+"w": "校长",
+"p": "xiàozhǎng",
+"en": "(college, university) president; headmaster",
+"lv": 3
+},
+{
+"w": "鞋",
+"p": "xié",
+"en": "xié / 鞋 xié / 鞵",
+"lv": 3
+},
+{
+"w": "心里",
+"p": "xīnlǐ",
+"en": "chest; heart; mind",
+"lv": 3
+},
+{
+"w": "新年",
+"p": "xīnnián",
+"en": "New Year",
+"lv": 3
+},
+{
+"w": "新闻",
+"p": "xīnwén",
+"en": "news",
+"lv": 3
+},
+{
+"w": "新鲜",
+"p": "xīnxiān",
+"en": "fresh (experience, food etc); freshness",
+"lv": 3
+},
+{
+"w": "信",
+"p": "xìn",
+"en": "letter; mail",
+"lv": 3
+},
+{
+"w": "信用卡",
+"p": "xìnyòngkǎ",
+"en": "credit card",
+"lv": 3
+},
+{
+"w": "行",
+"p": "xíng",
+"en": "(bound form) to walk; to go; to travel; (literary) trip; journey; visit",
+"lv": 3
+},
+{
+"w": "行李",
+"p": "xíngli",
+"en": "luggage",
+"lv": 3
+},
+{
+"w": "兴趣",
+"p": "xìngqù",
+"en": "interest (desire to know about sth); interest (thing in which one is interested); hobby",
+"lv": 3
+},
+{
+"w": "休假",
+"p": "xiūjià",
+"en": "to go on vacation; to have a holiday; to take leave",
+"lv": 3
+},
+{
+"w": "需要",
+"p": "xūyào",
+"en": "to need; to want; to demand; to require; needs",
+"lv": 3
+},
+{
+"w": "选",
+"p": "xuǎn",
+"en": "to choose; to pick",
+"lv": 3
+},
+{
+"w": "选择",
+"p": "xuǎnzé",
+"en": "to select; to pick; choice; option; alternative",
+"lv": 3
+},
+{
+"w": "学期",
+"p": "xuéqī",
+"en": "term; semester",
+"lv": 3
+},
+{
+"w": "牙",
+"p": "yá",
+"en": "tooth; ivory",
+"lv": 3
+},
+{
+"w": "牙刷",
+"p": "yáshuā",
+"en": "toothbrush",
+"lv": 3
+},
+{
+"w": "羊",
+"p": "yáng",
+"en": "sheep; goat",
+"lv": 3
+},
+{
+"w": "养",
+"p": "yǎng",
+"en": "to raise (animals); to bring up (children)",
+"lv": 3
+},
+{
+"w": "要求",
+"p": "yāoqiú",
+"en": "to request; to require",
+"lv": 3
+},
+{
+"w": "页",
+"p": "yè",
+"en": "page; leaf",
+"lv": 3
+},
+{
+"w": "一定",
+"p": "yídìng",
+"en": "surely; certainly; definitely; fixed; settled",
+"lv": 3
+},
+{
+"w": "一共",
+"p": "yígòng",
+"en": "in total; altogether",
+"lv": 3
+},
+{
+"w": "一块儿",
+"p": "yíkuàir",
+"en": "erhua variant of 一块",
+"lv": 3
+},
+{
+"w": "一样",
+"p": "yíyàng",
+"en": "same; like",
+"lv": 3
+},
+{
+"w": "以后",
+"p": "yǐhòu",
+"en": "after; later",
+"lv": 3
+},
+{
+"w": "以前",
+"p": "yǐqián",
+"en": "before; formerly",
+"lv": 3
+},
+{
+"w": "以上",
+"p": "yǐshàng",
+"en": "that level or higher; that amount or more; the above-mentioned",
+"lv": 3
+},
+{
+"w": "以外",
+"p": "yǐwài",
+"en": "apart from; other than",
+"lv": 3
+},
+{
+"w": "以为",
+"p": "yǐwéi",
+"en": "to think; to believe (often with the implication that the belief is mistaken - unless referring to one's own current belief)",
+"lv": 3
+},
+{
+"w": "以下",
+"p": "yǐxià",
+"en": "that level or lower; that amount or less",
+"lv": 3
+},
+{
+"w": "一般",
+"p": "yìbān",
+"en": "same; ordinary",
+"lv": 3
+},
+{
+"w": "一边",
+"p": "yìbiān",
+"en": "one side; either side",
+"lv": 3
+},
+{
+"w": "一直",
+"p": "yìzhí",
+"en": "straight (in a straight line); continuously; always; all the way through",
+"lv": 3
+},
+{
+"w": "音乐",
+"p": "yīnyuè",
+"en": "music",
+"lv": 3
+},
+{
+"w": "银行",
+"p": "yínháng",
+"en": "bank",
+"lv": 3
+},
+{
+"w": "银行卡",
+"p": "yínhángkǎ",
+"en": "bank card",
+"lv": 3
+},
+{
+"w": "饮料",
+"p": "yǐnliào",
+"en": "drink; beverage",
+"lv": 3
+},
+{
+"w": "应该",
+"p": "yīnggāi",
+"en": "ought to; should; must",
+"lv": 3
+},
+{
+"w": "影响",
+"p": "yǐngxiǎng",
+"en": "influence; effect",
+"lv": 3
+},
+{
+"w": "用",
+"p": "yòng",
+"en": "to use; to make use of; to employ; (coverb) with; using",
+"lv": 3
+},
+{
+"w": "邮件",
+"p": "yóujiàn",
+"en": "mail; post",
+"lv": 3
+},
+{
+"w": "游客",
+"p": "yóukè",
+"en": "traveler; tourist; (online gaming) guest player",
+"lv": 3
+},
+{
+"w": "游戏",
+"p": "yóuxì",
+"en": "game; to play",
+"lv": 3
+},
+{
+"w": "邮箱",
+"p": "yóuxiāng",
+"en": "mailbox; post office box",
+"lv": 3
+},
+{
+"w": "有关",
+"p": "yǒuguān",
+"en": "to have sth to do with; to relate to",
+"lv": 3
+},
+{
+"w": "有名",
+"p": "yǒumíng",
+"en": "famous; well-known",
+"lv": 3
+},
+{
+"w": "有用",
+"p": "yǒuyòng",
+"en": "useful",
+"lv": 3
+},
+{
+"w": "又",
+"p": "yòu",
+"en": "(once) again; also",
+"lv": 3
+},
+{
+"w": "羽毛球",
+"p": "yǔmáoqiú",
+"en": "badminton; shuttlecock",
+"lv": 3
+},
+{
+"w": "语言",
+"p": "yǔyán",
+"en": "language",
+"lv": 3
+},
+{
+"w": "雨衣",
+"p": "yǔyī",
+"en": "raincoat",
+"lv": 3
+},
+{
+"w": "遇到",
+"p": "yùdào",
+"en": "to meet; to run into; to come across",
+"lv": 3
+},
+{
+"w": "遇见",
+"p": "yùjiàn",
+"en": "to meet",
+"lv": 3
+},
+{
+"w": "园",
+"p": "yuán",
+"en": "land used for growing plants; site used for public recreation",
+"lv": 3
+},
+{
+"w": "员",
+"p": "yuán",
+"en": "(bound form) person engaged in a certain field of activity; (bound form) member",
+"lv": 3
+},
+{
+"w": "愿意",
+"p": "yuànyì",
+"en": "to wish; to want",
+"lv": 3
+},
+{
+"w": "越",
+"p": "yuè",
+"en": "to exceed; to climb over",
+"lv": 3
+},
+{
+"w": "月亮",
+"p": "yuèliang",
+"en": "the moon",
+"lv": 3
+},
+{
+"w": "运动会",
+"p": "yùndònghuì",
+"en": "sports competition",
+"lv": 3
+},
+{
+"w": "运动员",
+"p": "yùndòngyuán",
+"en": "athlete",
+"lv": 3
+},
+{
+"w": "咱们",
+"p": "zánmen",
+"en": "we or us (including both the speaker and the person(s) spoken to); (dialect) I or me",
+"lv": 3
+},
+{
+"w": "脏",
+"p": "zāng",
+"en": "dirty; filthy",
+"lv": 3
+},
+{
+"w": "怎么办",
+"p": "zěnme bàn",
+"en": "what's to be done",
+"lv": 3
+},
+{
+"w": "怎样",
+"p": "zěnyàng",
+"en": "how; what kind",
+"lv": 3
+},
+{
+"w": "站",
+"p": "zhàn",
+"en": "station; to stand",
+"lv": 3
+},
+{
+"w": "张",
+"p": "zhāng",
+"en": "to open up; to spread",
+"lv": 3
+},
+{
+"w": "长",
+"p": "zhǎng",
+"en": "chief; head",
+"lv": 3
+},
+{
+"w": "着急",
+"p": "zháojí",
+"en": "to worry; to feel anxious; to feel a sense of urgency; to be in a hurry",
+"lv": 3
+},
+{
+"w": "照",
+"p": "zhào",
+"en": "zhào / 炤 zhào / 照",
+"lv": 3
+},
+{
+"w": "照顾",
+"p": "zhàogù",
+"en": "to take care of; to show consideration",
+"lv": 3
+},
+{
+"w": "照片",
+"p": "zhàopiàn",
+"en": "photograph",
+"lv": 3
+},
+{
+"w": "照相",
+"p": "zhàoxiàng",
+"en": "to take a photograph",
+"lv": 3
+},
+{
+"w": "直到",
+"p": "zhídào",
+"en": "until",
+"lv": 3
+},
+{
+"w": "只",
+"p": "zhǐ",
+"en": "zhǐ / 只 zhǐ / 祇 zhǐ / 衹",
+"lv": 3
+},
+{
+"w": "纸",
+"p": "zhǐ",
+"en": "zhǐ / 帋 zhǐ / 紙",
+"lv": 3
+},
+{
+"w": "只能",
+"p": "zhǐ néng",
+"en": "can only; obliged to do sth",
+"lv": 3
+},
+{
+"w": "只是",
+"p": "zhǐshì",
+"en": "merely; only; just; nothing but; simply",
+"lv": 3
+},
+{
+"w": "只要",
+"p": "zhǐyào",
+"en": "so long as; provided; if",
+"lv": 3
+},
+{
+"w": "只有",
+"p": "zhǐyǒu",
+"en": "only have...; there is only...; (used in combination with 才) it is only if... (that one can...) (as in 只有通过治疗才能痊愈 \"the only way to cure it is with therapy\")",
+"lv": 3
+},
+{
+"w": "中",
+"p": "zhōng",
+"en": "within; among; in; middle; center",
+"lv": 3
+},
+{
+"w": "中间",
+"p": "zhōngjiān",
+"en": "the middle; the inside; in the middle; within; between; among",
+"lv": 3
+},
+{
+"w": "终于",
+"p": "zhōngyú",
+"en": "at last; in the end",
+"lv": 3
+},
+{
+"w": "种",
+"p": "zhǒng",
+"en": "seed; species",
+"lv": 3
+},
+{
+"w": "重要",
+"p": "zhòngyào",
+"en": "important; significant; major",
+"lv": 3
+},
+{
+"w": "周末",
+"p": "zhōumò",
+"en": "weekend",
+"lv": 3
+},
+{
+"w": "主要",
+"p": "zhǔyào",
+"en": "main; principal; major; primary",
+"lv": 3
+},
+{
+"w": "注意",
+"p": "zhùyì",
+"en": "to take note of; to pay attention to",
+"lv": 3
+},
+{
+"w": "住院",
+"p": "zhùyuàn",
+"en": "to stay in hospital; to be hospitalized",
+"lv": 3
+},
+{
+"w": "字典",
+"p": "zìdiǎn",
+"en": "Chinese character dictionary (containing entries for single characters, contrasted with a 词典, which has entries for words of one or more characters); (coll.) dictionary",
+"lv": 3
+},
+{
+"w": "自行车",
+"p": "zìxíngchē",
+"en": "bicycle; bike",
+"lv": 3
+},
+{
+"w": "子",
+"p": "zi",
+"en": "noun suffix, as in 椅子 \"chair\"",
+"lv": 3
+},
+{
+"w": "总",
+"p": "zǒng",
+"en": "(bound form) general; overall; to sum up",
+"lv": 3
+},
+{
+"w": "总是",
+"p": "zǒngshì",
+"en": "always",
+"lv": 3
+},
+{
+"w": "嘴",
+"p": "zuǐ",
+"en": "mouth; beak",
+"lv": 3
+},
+{
+"w": "最好",
+"p": "zuìhǎo",
+"en": "best; had better...; it would be best to...",
+"lv": 3
+},
+{
+"w": "最后",
+"p": "zuìhòu",
+"en": "final; last; ultimate; finally; in the end",
+"lv": 3
+},
+{
+"w": "最近",
+"p": "zuìjìn",
+"en": "recently; soon",
+"lv": 3
+},
+{
+"w": "做客",
+"p": "zuòkè",
+"en": "to be a guest or visitor",
+"lv": 3
+},
+{
+"w": "作业",
+"p": "zuòyè",
+"en": "school assignment; homework",
+"lv": 3
+}
+]
