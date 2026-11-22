@@ -16,6 +16,8 @@ const ok = (name, cond, extra = '') => { results.push([cond ? 'PASS' : 'FAIL', n
       cancel() { window.__cancels = (window.__cancels || 0) + 1; }, getVoices() { return []; }, onvoiceschanged: null, speaking: false
     };
     Object.defineProperty(window, 'speechSynthesis', { value: fake, configurable: true });
+    class FakeSR { constructor() { this.lang = ''; } start() { window.__srLang = this.lang; setTimeout(() => { const t = window.__srSay || ''; this.onresult && this.onresult({ results: [[{ transcript: t }]] }); this.onend && this.onend(); }, 50); } stop() { } }
+    window.webkitSpeechRecognition = FakeSR; window.SpeechRecognition = FakeSR;
   });
   const page = await ctx.newPage();
   const errors = [];
@@ -58,6 +60,15 @@ const ok = (name, cond, extra = '') => { results.push([cond ? 'PASS' : 'FAIL', n
   ok('카드: 예문은 하나 + 3급 문법 코멘트', (await page.$$('.exbox')).length === 1 && !!(await page.$('.exbox .gcomment')));
   const cancels = await page.evaluate(() => window.__cancels);
   ok('음성 겹침 방지 (재생 전 cancel)', cancels >= 3, cancels);
+  // speaking practice
+  await page.evaluate(() => { window.__srSay = BYN.get(+location.hash.split('/')[1]).hz; });
+  await page.click('[data-act="speak"][data-k="w"]'); await page.waitForTimeout(200);
+  ok('따라 말하기: 중국어(zh-CN) 인식 + 칭찬 표시', (await page.evaluate(() => window.__srLang)) === 'zh-CN' && /잘했어요/.test(await page.$eval('#spk-w', e => e.textContent)));
+  ok('따라 말하기 성공 → "단어 따라 말하기" 자동 체크', await page.$eval('.ck[data-key="ws"]', e => e.classList.contains('on')));
+  await page.evaluate(() => { window.__srSay = '你好'; });
+  await page.click('[data-act="speak"][data-k="e"]'); await page.waitForTimeout(200);
+  ok('따라 말하기: 틀리면 다시 해 보라고 안내', /다시|거의/.test(await page.$eval('#spk-e', e => e.textContent)) && !(await page.$eval('.ck[data-key="es"]', e => e.classList.contains('on'))));
+  await page.click('.ck[data-key="ws"]'); // reset so later toggle steps behave as before
   const whOn = await page.$eval('.ck[data-key="wh"]', e => e.classList.contains('on'));
   ok('카드: 듣기 누르면 "단어 듣기 1회" 자동 체크', whOn);
   await page.click('.ck[data-key="ws"]');

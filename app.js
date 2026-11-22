@@ -132,6 +132,77 @@ const TTS = {
   stop() { try { speechSynthesis.cancel(); } catch (e) { } $$('.playing').forEach(b => b.classList.remove('playing')); }
 };
 
+/* ---------- speaking practice ---------- */
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+const MIC = {
+  rec: null, mr: null, chunks: [], btn: null, url: null,
+  busy() { return !!(this.rec || this.mr); },
+  stop() { try { this.rec && this.rec.stop(); } catch (e) { } try { this.mr && this.mr.state !== 'inactive' && this.mr.stop(); } catch (e) { } },
+  start(target, btn, box, onOk) {
+    if (this.busy()) { this.stop(); return; }
+    TTS.stop();
+    this.btn = btn;
+    const label = btn.textContent;
+    const done = () => { btn.classList.remove('rec'); btn.textContent = label; this.rec = null; this.mr = null; };
+    if (SR) {
+      const r = new SR();
+      r.lang = 'zh-CN'; r.interimResults = false; r.maxAlternatives = 3; r.continuous = false;
+      let got = false;
+      r.onresult = ev => {
+        got = true;
+        const alts = [...ev.results[0]].map(a => a.transcript);
+        const best = alts.map(a => ({ a, sc: sim(a, target) })).sort((x, y) => y.sc - x.sc)[0];
+        showSpeak(box, target, best.a, best.sc);
+        if (best.sc >= 0.8) onOk();
+      };
+      r.onerror = ev => {
+        got = true;
+        if (ev.error === 'not-allowed' || ev.error === 'service-not-allowed') box.innerHTML = `<div class="fb no small">마이크나 음성 인식 권한이 꺼져 있어요. 아이폰 설정 → Safari → 마이크를 '허용'으로 바꾸고, 설정 → 일반 → 키보드 → '받아쓰기'를 켜 주세요.</div>`;
+        else if (ev.error === 'no-speech') box.innerHTML = `<div class="fb no small">소리가 안 들렸어요. 버튼을 누르고 바로 말해 보세요.</div>`;
+        else box.innerHTML = `<div class="fb no small">음성 인식이 잘 안 됐어요 (${esc(ev.error)}). 다시 해 보세요.</div>`;
+      };
+      r.onend = () => { if (!got) box.innerHTML = `<div class="fb no small">잘 못 알아들었어요. 조금 더 크게, 또박또박 말해 보세요.</div>`; done(); };
+      try { r.start(); this.rec = r; btn.classList.add('rec'); btn.textContent = '⏹ 듣는 중… (눌러서 끝내기)'; box.innerHTML = `<div class="small muted">지금 중국어로 말해 보세요</div>`; }
+      catch (e) { done(); this.recordOnly(target, btn, box, label); }
+      return;
+    }
+    this.recordOnly(target, btn, box, label);
+  },
+  async recordOnly(target, btn, box, label) {
+    if (!navigator.mediaDevices || !window.MediaRecorder) { box.innerHTML = `<div class="fb no small">이 브라우저에서는 녹음을 쓸 수 없어요. 소리 내어 따라 말한 뒤 체크해 주세요.</div>`; return; }
+    try {
+      const st = await navigator.mediaDevices.getUserMedia({ audio: true });
+      const mr = new MediaRecorder(st); this.mr = mr; this.chunks = [];
+      mr.ondataavailable = e => this.chunks.push(e.data);
+      mr.onstop = () => {
+        st.getTracks().forEach(t => t.stop());
+        if (this.url) URL.revokeObjectURL(this.url);
+        this.url = URL.createObjectURL(new Blob(this.chunks, { type: mr.mimeType || 'audio/mp4' }));
+        box.innerHTML = `<div class="fb ok small"><b>녹음했어요.</b> 내 발음과 원어민 발음을 비교해 보세요.<div class="audio-row" style="justify-content:flex-start"><button class="abtn" data-act="myvoice">▶️ 내 목소리</button><button class="abtn slow" data-act="qsay" data-t="${esc(target)}">🔊 원어민</button></div></div>`;
+        btn.classList.remove('rec'); btn.textContent = label; this.mr = null;
+      };
+      mr.start(); btn.classList.add('rec'); btn.textContent = '⏹ 녹음 중… (눌러서 끝내기)';
+      box.innerHTML = `<div class="small muted">지금 따라 말해 보세요</div>`;
+    } catch (e) { box.innerHTML = `<div class="fb no small">마이크를 쓸 수 없어요. 아이폰 설정 → Safari → 마이크를 '허용'으로 바꿔 주세요.</div>`; }
+  }
+};
+const normZh = s => String(s).replace(/[^\u3400-\u9fff0-9]/g, '');
+function sim(a, b) {
+  a = normZh(a); b = normZh(b); if (!a || !b) return 0;
+  const m = a.length, n = b.length, dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+  for (let i = 1; i <= m; i++) for (let j = 1; j <= n; j++) dp[i][j] = a[i - 1] === b[j - 1] ? dp[i - 1][j - 1] + 1 : Math.max(dp[i - 1][j], dp[i][j - 1]);
+  return dp[m][n] / Math.max(m, n);
+}
+function showSpeak(box, target, heard, sc) {
+  const pct = Math.round(sc * 100);
+  const tset = normZh(heard);
+  const marked = [...normZh(target)].map(c => tset.includes(c) ? `<span style="color:var(--mint)">${c}</span>` : `<span style="color:var(--red);text-decoration:underline">${c}</span>`).join('');
+  box.innerHTML = `<div class="fb ${sc >= 0.8 ? 'ok' : 'no'}"><b>${sc >= 0.8 ? '잘했어요! 🎉' : sc >= 0.5 ? '거의 다 왔어요! 한 번 더 💪' : '다시 한 번 해 봐요 🙂'}</b> <span class="small muted">일치 ${pct}%</span>
+    <div class="small mt8">내가 말한 것: <span class="zh" style="font-size:17px">${esc(heard) || '—'}</span></div>
+    <div class="small">목표 문장: <span class="zh" style="font-size:17px">${marked}</span></div>
+    <div class="small muted mt8">빨간 글자는 인식되지 않은 부분이에요. 아이폰 음성 인식 기준이라 성조까지 정확히 채점하지는 않아요.</div></div>`;
+}
+
 /* ---------- UI helpers ---------- */
 let toastT;
 function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove('show'), 2000); }
@@ -164,7 +235,7 @@ const nav = (h, replace) => { if (replace) { history.replaceState(null, '', '#' 
 window.addEventListener('hashchange', route);
 let scrollMem = {};
 function route() {
-  TTS.stop();
+  TTS.stop(); MIC.stop();
   closeSheet();
   const h = (location.hash || '#home').slice(1);
   const [name, a, b] = h.split('/');
@@ -304,6 +375,8 @@ function vCard(n, mode) {
       <button class="abtn" data-act="play" data-k="w">🔊 단어 듣기</button>
       <button class="abtn slow" data-act="play" data-k="w" data-slow="1">🐢 느리게</button>
     </div>
+    <div class="audio-row"><button class="abtn mic" data-act="speak" data-k="w">🎤 따라 말하기</button></div>
+    <div id="spk-w" class="spres"></div>
     <div class="exbox">
       <div class="lab">예문</div>
       <div class="exz">${esc(w.ez)}</div>
@@ -312,7 +385,9 @@ function vCard(n, mode) {
       <div class="audio-row" style="justify-content:flex-start">
         <button class="abtn" data-act="play" data-k="e">🔊 예문 듣기</button>
         <button class="abtn slow" data-act="play" data-k="e" data-slow="1">🐢 느리게</button>
+        <button class="abtn mic" data-act="speak" data-k="e">🎤 따라 말하기</button>
       </div>
+      <div id="spk-e" class="spres"></div>
       ${gcHTML(w)}
       ${chips ? `<div class="lab mt8">예문에 쓰인 단어</div><div class="chips">${chips}</div>` : ''}
     </div>
@@ -878,6 +953,14 @@ document.addEventListener('click', e => {
       if (key && !p[key]) { p[key] = 1; save(); const b = $(`.ck[data-key="${key}"]`); b && b.classList.add('on'); }
       break;
     }
+    case 'speak': {
+      const w = BYN.get(curN); const k = t.dataset.k;
+      const target = k === 'w' ? (w.isZh ? w.hz : w.ez) : w.ez;
+      const key = k === 'w' ? 'ws' : 'es';
+      MIC.start(target, t, $('#spk-' + k), () => { const p = prog(w.n); if (!p[key]) { p[key] = 1; save(); const b = $(`.ck[data-key="${key}"]`); b && b.classList.add('on'); } });
+      break;
+    }
+    case 'myvoice': { if (MIC.url) { const a = new Audio(MIC.url); a.play().catch(() => { }); } break; }
     case 'ck': { const p = prog(curN); const k = t.dataset.key; p[k] = p[k] ? 0 : 1; t.classList.toggle('on', !!p[k]); save(); break; }
     case 'done': {
       const w = BYN.get(curN); const v = !isDone(w);

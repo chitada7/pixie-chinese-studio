@@ -253,3 +253,8 @@ table.rep td:last-child{text-align:right;font-weight:800}
 .gcomment b{font-size:13px;color:var(--blue)}
 .gcomment i{position:absolute;right:12px;top:50%;transform:translateY(-50%);font-style:normal;color:var(--blue);font-size:18px}
 .gcomment.tip{border-left-color:var(--gold)} .gcomment.tip b{color:var(--gold)}
+
+.abtn.mic{background:var(--mint-50);color:var(--mint)}
+.abtn.mic.rec{background:var(--red);color:#fff;animation:pulse 1s infinite}
+.spres:empty{display:none}
+.spres{margin-top:6px}
