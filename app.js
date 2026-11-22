@@ -135,55 +135,61 @@ const TTS = {
 /* ---------- speaking practice ---------- */
 const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
 const MIC = {
-  rec: null, mr: null, chunks: [], btn: null, url: null,
-  busy() { return !!(this.rec || this.mr); },
-  stop() { try { this.rec && this.rec.stop(); } catch (e) { } try { this.mr && this.mr.state !== 'inactive' && this.mr.stop(); } catch (e) { } },
-  start(target, btn, box, onOk) {
-    if (this.busy()) { this.stop(); return; }
-    TTS.stop();
-    this.btn = btn;
-    const label = btn.textContent;
-    const done = () => { btn.classList.remove('rec'); btn.textContent = label; this.rec = null; this.mr = null; };
-    if (SR) {
-      const r = new SR();
-      r.lang = 'zh-CN'; r.interimResults = false; r.maxAlternatives = 3; r.continuous = false;
-      let got = false;
-      r.onresult = ev => {
-        got = true;
-        const alts = [...ev.results[0]].map(a => a.transcript);
-        const best = alts.map(a => ({ a, sc: sim(a, target) })).sort((x, y) => y.sc - x.sc)[0];
-        showSpeak(box, target, best.a, best.sc);
-        if (best.sc >= 0.8) onOk();
-      };
-      r.onerror = ev => {
-        got = true;
-        if (ev.error === 'not-allowed' || ev.error === 'service-not-allowed') box.innerHTML = `<div class="fb no small">마이크나 음성 인식 권한이 꺼져 있어요. 아이폰 설정 → Safari → 마이크를 '허용'으로 바꾸고, 설정 → 일반 → 키보드 → '받아쓰기'를 켜 주세요.</div>`;
-        else if (ev.error === 'no-speech') box.innerHTML = `<div class="fb no small">소리가 안 들렸어요. 버튼을 누르고 바로 말해 보세요.</div>`;
-        else box.innerHTML = `<div class="fb no small">음성 인식이 잘 안 됐어요 (${esc(ev.error)}). 다시 해 보세요.</div>`;
-      };
-      r.onend = () => { if (!got) box.innerHTML = `<div class="fb no small">잘 못 알아들었어요. 조금 더 크게, 또박또박 말해 보세요.</div>`; done(); };
-      try { r.start(); this.rec = r; btn.classList.add('rec'); btn.textContent = '⏹ 듣는 중… (눌러서 끝내기)'; box.innerHTML = `<div class="small muted">지금 중국어로 말해 보세요</div>`; }
-      catch (e) { done(); this.recordOnly(target, btn, box, label); }
-      return;
-    }
-    this.recordOnly(target, btn, box, label);
+  rec: null, mr: null, stream: null, chunks: [], url: null, active: false,
+  stop() {
+    try { this.rec && this.rec.stop(); } catch (e) { }
+    try { this.mr && this.mr.state !== 'inactive' && this.mr.stop(); } catch (e) { }
   },
-  async recordOnly(target, btn, box, label) {
-    if (!navigator.mediaDevices || !window.MediaRecorder) { box.innerHTML = `<div class="fb no small">이 브라우저에서는 녹음을 쓸 수 없어요. 소리 내어 따라 말한 뒤 체크해 주세요.</div>`; return; }
-    try {
-      const st = await navigator.mediaDevices.getUserMedia({ audio: true });
-      const mr = new MediaRecorder(st); this.mr = mr; this.chunks = [];
-      mr.ondataavailable = e => this.chunks.push(e.data);
-      mr.onstop = () => {
-        st.getTracks().forEach(t => t.stop());
-        if (this.url) URL.revokeObjectURL(this.url);
-        this.url = URL.createObjectURL(new Blob(this.chunks, { type: mr.mimeType || 'audio/mp4' }));
-        box.innerHTML = `<div class="fb ok small"><b>녹음했어요.</b> 내 발음과 원어민 발음을 비교해 보세요.<div class="audio-row" style="justify-content:flex-start"><button class="abtn" data-act="myvoice">▶️ 내 목소리</button><button class="abtn slow" data-act="qsay" data-t="${esc(target)}">🔊 원어민</button></div></div>`;
-        btn.classList.remove('rec'); btn.textContent = label; this.mr = null;
-      };
-      mr.start(); btn.classList.add('rec'); btn.textContent = '⏹ 녹음 중… (눌러서 끝내기)';
-      box.innerHTML = `<div class="small muted">지금 따라 말해 보세요</div>`;
-    } catch (e) { box.innerHTML = `<div class="fb no small">마이크를 쓸 수 없어요. 아이폰 설정 → Safari → 마이크를 '허용'으로 바꿔 주세요.</div>`; }
+  async start(target, btn, box, onOk) {
+    if (this.active) { this.stop(); return; }
+    TTS.stop();
+    this.active = true;
+    const label = btn.dataset.label || (btn.dataset.label = btn.textContent);
+    btn.classList.add('rec'); btn.textContent = '⏹ 말하는 중… (끝나면 누르기)';
+    box.innerHTML = `<div class="small muted">지금 중국어로 따라 말해 보세요</div>`;
+    let heard = null, score = null, err = null, recDone = !SR, audioDone = true;
+    const finish = () => {
+      if (!(recDone && audioDone)) return;
+      this.active = false; this.rec = null; this.mr = null;
+      btn.classList.remove('rec'); btn.textContent = label;
+      showSpeak(box, target, heard, score, err, !!this.url);
+      if (score != null && score >= 0.8) onOk();
+    };
+    // 1) record my voice
+    if (navigator.mediaDevices && window.MediaRecorder) {
+      try {
+        const st = await navigator.mediaDevices.getUserMedia({ audio: true });
+        this.stream = st; this.chunks = []; audioDone = false;
+        const mr = new MediaRecorder(st); this.mr = mr;
+        mr.ondataavailable = e => { if (e.data && e.data.size) this.chunks.push(e.data); };
+        mr.onstop = () => {
+          st.getTracks().forEach(t => t.stop());
+          if (this.url) URL.revokeObjectURL(this.url);
+          this.url = this.chunks.length ? URL.createObjectURL(new Blob(this.chunks, { type: mr.mimeType || 'audio/mp4' })) : null;
+          audioDone = true; finish();
+        };
+        mr.start();
+      } catch (e) { audioDone = true; if (!SR) err = 'mic'; }
+    }
+    // 2) recognise what I said (accuracy %)
+    if (SR) {
+      try {
+        const r = new SR(); this.rec = r;
+        r.lang = 'zh-CN'; r.interimResults = false; r.maxAlternatives = 3; r.continuous = false;
+        r.onresult = ev => {
+          const alts = [...ev.results[0]].map(a => a.transcript);
+          const best = alts.map(a => ({ a, sc: sim(a, target) })).sort((x, y) => y.sc - x.sc)[0];
+          heard = best.a; score = best.sc;
+        };
+        r.onerror = ev => { err = ev.error; };
+        r.onend = () => { recDone = true; try { this.mr && this.mr.state !== 'inactive' && this.mr.stop(); } catch (e) { } finish(); };
+        r.start();
+      } catch (e) { recDone = true; err = 'sr'; }
+    } else {
+      // no recognition: recording only, stop after 6 seconds or on tap
+      setTimeout(() => { if (this.mr && this.mr.state !== 'inactive') this.mr.stop(); }, 6000);
+    }
+    finish();
   }
 };
 const normZh = s => String(s).replace(/[^\u3400-\u9fff0-9]/g, '');
@@ -193,14 +199,29 @@ function sim(a, b) {
   for (let i = 1; i <= m; i++) for (let j = 1; j <= n; j++) dp[i][j] = a[i - 1] === b[j - 1] ? dp[i - 1][j - 1] + 1 : Math.max(dp[i - 1][j], dp[i][j - 1]);
   return dp[m][n] / Math.max(m, n);
 }
-function showSpeak(box, target, heard, sc) {
+function showSpeak(box, target, heard, sc, err, hasVoice) {
+  const voice = hasVoice ? `<button class="abtn" data-act="myvoice">▶️ 내 목소리</button>` : '';
+  const native = `<button class="abtn slow" data-act="qsay" data-t="${esc(target)}">🔊 원어민</button>`;
+  const btns = `<div class="audio-row" style="justify-content:flex-start;flex-wrap:wrap">${voice}${native}</div>`;
+  if (sc == null) {
+    const msg = err === 'not-allowed' || err === 'service-not-allowed' || err === 'mic'
+      ? `마이크나 음성 인식 권한이 꺼져 있어요. 아이폰 설정 → Safari → 마이크를 '허용'으로, 설정 → 일반 → 키보드 → '받아쓰기'를 켜 주세요.`
+      : err === 'no-speech' ? '소리가 안 들렸어요. 버튼을 누르고 바로 말해 보세요.'
+      : !SR ? '이 화면에서는 정확도 채점을 할 수 없어서 녹음만 했어요. 원어민 발음과 비교해 들어 보세요.'
+      : '잘 못 알아들었어요. 조금 더 크게, 또박또박 말해 보세요.';
+    box.innerHTML = `<div class="fb ${hasVoice && !SR ? 'ok' : 'no'} small">${msg}${btns}</div>`;
+    return;
+  }
   const pct = Math.round(sc * 100);
-  const tset = normZh(heard);
-  const marked = [...normZh(target)].map(c => tset.includes(c) ? `<span style="color:var(--mint)">${c}</span>` : `<span style="color:var(--red);text-decoration:underline">${c}</span>`).join('');
-  box.innerHTML = `<div class="fb ${sc >= 0.8 ? 'ok' : 'no'}"><b>${sc >= 0.8 ? '잘했어요! 🎉' : sc >= 0.5 ? '거의 다 왔어요! 한 번 더 💪' : '다시 한 번 해 봐요 🙂'}</b> <span class="small muted">일치 ${pct}%</span>
+  const hs = normZh(heard);
+  const marked = [...normZh(target)].map(c => hs.includes(c) ? `<span style="color:var(--mint)">${c}</span>` : `<span style="color:var(--red);text-decoration:underline">${c}</span>`).join('');
+  box.innerHTML = `<div class="fb ${sc >= 0.8 ? 'ok' : 'no'}">
+    <div style="display:flex;align-items:center;gap:10px"><span style="font-size:30px;font-weight:900;color:${sc >= 0.8 ? 'var(--mint)' : sc >= 0.5 ? 'var(--gold)' : 'var(--red)'}">${pct}%</span>
+    <b>${sc >= 0.8 ? '잘했어요! 🎉' : sc >= 0.5 ? '거의 다 왔어요! 한 번 더 💪' : '다시 한 번 해 봐요 🙂'}</b></div>
     <div class="small mt8">내가 말한 것: <span class="zh" style="font-size:17px">${esc(heard) || '—'}</span></div>
     <div class="small">목표 문장: <span class="zh" style="font-size:17px">${marked}</span></div>
-    <div class="small muted mt8">빨간 글자는 인식되지 않은 부분이에요. 아이폰 음성 인식 기준이라 성조까지 정확히 채점하지는 않아요.</div></div>`;
+    ${btns}
+    <div class="small muted">빨간 글자는 알아듣지 못한 부분이에요. 아이폰 음성 인식 기준이라 성조까지 정확히 채점하지는 않아요.</div></div>`;
 }
 
 /* ---------- UI helpers ---------- */

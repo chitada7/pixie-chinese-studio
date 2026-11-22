@@ -1,5 +1,5 @@
-const CACHE = 'pcs-v1-2026-11-22f';
-const FILES = ['./', 'index.html', 'style.css?v=4', 'app.js?v=6', 'data.json?v=2026-11-22c', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
+const CACHE = 'pcs-v1-2026-11-22g';
+const FILES = ['./', 'index.html', 'style.css?v=4', 'app.js?v=7', 'data.json?v=2026-11-22c', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener('fetch', e => {

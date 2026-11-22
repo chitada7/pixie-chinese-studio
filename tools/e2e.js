@@ -5,8 +5,8 @@ const results = [];
 const ok = (name, cond, extra = '') => { results.push([cond ? 'PASS' : 'FAIL', name, extra]); };
 
 (async () => {
-  const browser = await chromium.launch({ executablePath: '/usr/bin/google-chrome', args: ['--no-sandbox'] });
-  const ctx = await browser.newContext({ ...devices['iPhone 13'], locale: 'ko-KR', timezoneId: 'Asia/Seoul' });
+  const browser = await chromium.launch({ executablePath: '/usr/bin/google-chrome', args: ['--no-sandbox', '--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream'] });
+  const ctx = await browser.newContext({ ...devices['iPhone 13'], locale: 'ko-KR', timezoneId: 'Asia/Seoul', permissions: ['microphone'] });
   // record speech calls (headless chrome has no voices; we verify the app calls speak with zh-CN)
   await ctx.addInitScript(() => {
     window.__spoken = [];
@@ -62,11 +62,12 @@ const ok = (name, cond, extra = '') => { results.push([cond ? 'PASS' : 'FAIL', n
   ok('음성 겹침 방지 (재생 전 cancel)', cancels >= 3, cancels);
   // speaking practice
   await page.evaluate(() => { window.__srSay = BYN.get(+location.hash.split('/')[1]).hz; });
-  await page.click('[data-act="speak"][data-k="w"]'); await page.waitForTimeout(200);
-  ok('따라 말하기: 중국어(zh-CN) 인식 + 칭찬 표시', (await page.evaluate(() => window.__srLang)) === 'zh-CN' && /잘했어요/.test(await page.$eval('#spk-w', e => e.textContent)));
+  await page.click('[data-act="speak"][data-k="w"]'); await page.waitForTimeout(1200);
+  ok('따라 말하기: 정확도 % + 칭찬 표시', (await page.evaluate(() => window.__srLang)) === 'zh-CN' && /100%[\s\S]*잘했어요/.test(await page.$eval('#spk-w', e => e.textContent)), await page.$eval('#spk-w', e => e.textContent.slice(0, 40)));
+  ok('따라 말하기: 내 목소리 다시 듣기 버튼', !!(await page.$('#spk-w [data-act="myvoice"]')));
   ok('따라 말하기 성공 → "단어 따라 말하기" 자동 체크', await page.$eval('.ck[data-key="ws"]', e => e.classList.contains('on')));
   await page.evaluate(() => { window.__srSay = '你好'; });
-  await page.click('[data-act="speak"][data-k="e"]'); await page.waitForTimeout(200);
+  await page.click('[data-act="speak"][data-k="e"]'); await page.waitForTimeout(1200);
   ok('따라 말하기: 틀리면 다시 해 보라고 안내', /다시|거의/.test(await page.$eval('#spk-e', e => e.textContent)) && !(await page.$eval('.ck[data-key="es"]', e => e.classList.contains('on'))));
   await page.click('.ck[data-key="ws"]'); // reset so later toggle steps behave as before
   const whOn = await page.$eval('.ck[data-key="wh"]', e => e.classList.contains('on'));
